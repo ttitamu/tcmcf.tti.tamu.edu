@@ -1,0 +1,559 @@
+<!DOCTYPE html>
+<html><head>
+	<meta charset="UTF-8">
+  <title>TMCMF Assessment: User's Guide</title>
+  <script src="js/jquery_1.7.1.min.js"></script>
+  <!-- Le styles -->
+  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+  
+  <link href="css/style.css" rel="stylesheet" media="screen,print">
+  <link href="css/instruction.css" rel="stylesheet" media="all">
+  <link href="css/uguide.css" rel="stylesheet" media="all">
+  <link href="css/instruction_print.css" rel="stylesheet" media="print">
+  
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>  
+  <link rel="apple-touch-icon" href="images/icon.png">  
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+  <style type="text/css">
+    h3.header { background: url(images/pdf_header.png); }
+  </style>
+
+</head>
+<body>
+  <div class="container-fluid report-container">
+    <div class="row-fluid report-row">
+      <div class="col-md-2"></div>
+      <div class="instruction col-md-8 report-wrap">
+        <div class="row-fluid">
+          <div class="col-md-2"></div>
+          <div class="instruction col-md-8 report-wrap">
+          
+            <h1 class="header">Traffic Management Capability Maturity Model</h1>
+            
+            <h1 class="text-center">A Concise User's Guide to the Online Self-Assessment Tool</h1>
+            
+            <p class="text-center"><img src="images/dimension_icons.jpg" width="425" height="327" alt="Icons for each of the six dimensions: Systems and Technology, Collaboration, Performance Measurement, Organization and Workforce, Business Processes, and Culture"></p>
+            
+            <p class="text-center"><em>&ldquo;Applying the key dimensions of organizational capability to Traffic Management&rdquo;</em></p>
+            
+            <h2>Table of Contents</h2>
+            
+            <ul class="none">
+              <li><a href="#figures">List of Figures</a></li>
+              <li><a href="#tables">List of Tables</a></li>
+              <li><a href="#purpose">Purpose of User's Guide</a></li>
+              <li><a href="#requirements">Requirements for Using the Online Tool</a></li>
+              <li><a href="#usage-note">Usage Note Pertaining to the &ldquo;Back&rdquo; Button</a></li>
+              <li><a href="#introduction">Introduction</a></li>
+              <li><a href="#dimensions">The Key Dimensions of Capability</a></li>
+              <li><a href="#levels">The Four Levels of Capability</a></li>
+              <li><a href="#homescreen">The Home Screen</a></li>
+              <li><a href="#menu-bar">The Menu Bar</a>
+                <ul class="none">
+                  <li><a href="#tool-bar">Tool Bar Hovers and Context Sensitive Help</a></li>
+                  <li><a href="#back-button">Use of the Back Button While Navigating the Tool</a></li>
+                </ul>
+              </li>
+              <li><a href="#assessment-path">Choosing Your Assessment Path</a>
+                <ul class="none">
+                  <li><a href="#full-assessment">Selecting the Full Assessment Path</a></li>
+                  <li><a href="#minute-assessment">Selecting the 1-minute Assessment Path</a></li>
+                </ul>
+              </li>
+              <li><a href="#scoring">Scoring Your Assessment</a></li>
+              <li><a href="#action-list">Creating a Customized Action List</a>
+                <ul class="none">
+                  <li><a href="#print-actions">Printing Actions</a></li>
+                </ul>
+              </li>
+              <li><a href="#print-qa">Print <abbr>Q&amp;A</abbr></a></li>
+            </ul>
+            
+            <h2 id="figures">List of Figures</h2>
+            
+            <ul class="none">
+              <li><a href="#fig1">Figure 1.  The Tool Home Screen.</a></li>
+              <li><a href="#fig2">Figure 2.  Tool Menu Bar.</a></li>
+              <li><a href="#fig3">Figure 3.  Hovers Showing Help Text for Menu Bar.</a></li>
+              <li><a href="#fig4">Figure 4.  Context Sensitive Help Text.</a></li>
+
+              <li><a href="#fig5">Figure 5.  Choosing Your Assessment Path Through the Tool.</a></li>
+              <li><a href="#fig6">Figure 6.  Questions and Answers for the Full Assessment Path.</a></li>
+              <li><a href="#fig7">Figure 7.  Selecting &ldquo;Next&rdquo; To Continue Through the Assessment.</a></li>
+              <li><a href="#fig8">Figure 8.  Selecting &ldquo;Previous&rdquo; To Return to Previous Screens of Questions.</a></li>
+              <li><a href="#fig9">Figure 9.  Selecting &ldquo;Show Summary&rdquo; to See Assessment Results.</a></li>
+              <li><a href="#fig10">Figure 10.  Matrix for 1-minute Assessment.</a></li>
+              <li><a href="#fig11">Figure 11.  Highlighted User Selections on 1-minute Assessment Matrix.</a></li>
+              <li><a href="#fig12">Figure 12.  Scoring Results From Assessment.</a></li>
+              <li><a href="#fig13">Figure 13.  Action Selection Screen.</a></li>
+              <li><a href="#fig14">Figure 14.  Actions Dialogue with Selected Actions.</a></li>
+              <li><a href="#fig15">Figure 15.  Selecting Different Capability Levels.</a></li>
+              <li><a href="#fig16">Figure 16.  Print Options for Action Selection Screen.</a></li>
+              <li><a href="#fig17">Figure 17.  Example of &ldquo;My Selected Actions&rdquo; Formatted for Printing.</a></li>
+              <li><a href="#fig18">Figure 18.  Print <abbr>Q&amp;A</abbr> Capabilities.</a></li>
+              <li><a href="#fig19">Figure 19.  Text-Only Version Output.</a></li>
+            </ul>
+            
+            <h2 id="tables">List of Tables</h2>
+            
+            <ul class="none">
+              <li><a href="#table1">Table 1.  Icons and Definitions Used in the Tool for the Key Dimensions of Capability.</a></li>
+              <li><a href="#table2">Table 2.  Levels and Key Characteristics of Capability.</a></li>
+              <li><a href="#table3">Table 3.  Menu Bar Buttons and Functions.</a></li>
+            </ul>
+            
+            <h2 id="purpose">Purpose of User's Guide</h2>
+            
+            <p>The purpose of this user's guide is to give a concise background and overview of the Traffic Management Capability Maturity Framework Online Self-Assessment Tool.  In addition to the user's guide, the tool contains context sensitive help on each screen.  The user's guide covers how the tool functions and highlights key capabilities.  It is not intended to be a primer on conducting an assessment of traffic management capability within your region or agency.</p>
+            
+            <h2 id="requirements">Requirements for Using the Online Tool</h2>
+            
+            <p>The online tool is designed to be used with any modern web browser.  The tool is lightweight in that it does not require any communication with an external database, require log-ins, or transmit any personally identifiable information (<abbr>PII</abbr>).</p>
+            
+            <p>The web browser must support both JavaScript and a web browser capability called &ldquo;local storage&rdquo;.  Local storage is simply a modem web browser technique of storing information locally without transmission to an external database.  Browsers which do not support local storage (such as Internet Explorer 8) cannot be used with the tool.</p>
+            
+            <p>The following browsers have been tested against the tool as of February 2015.</p>
+            
+            <ul>
+              <li>Internet Explorer &#8211; tested from Version 9.0 and up</li>
+              <li>Chrome &#8211; tested from Version 33 and up</li>
+              <li>Firefox &#8211; tested from Version 30 and up</li>
+              <li>Safari &#8211; tested from Version 7 and up </li>
+            </ul>
+            
+            <p>Other browsers may work as well, as long as they support the use of JavaScript and local storage.</p>
+            
+            <h2 id="usage-note">Usage Note Pertaining to the &ldquo;Back&rdquo; Button</h2>
+            
+            <p>The online tool is constructed so that all actions are accomplished using navigation internal to the tool. Users should refrain from using the back button on their browser as this will exit you from the tool.</p>
+            
+            <h2 id="introduction">Introduction</h2>
+            
+            <p>The Traffic Management Capability Maturity Framework (<abbr>CMF</abbr>) Self-Evaluation Tool is intended to help agencies/regions assess their current traffic management capabilities and develop an implementation plan for moving to a higher level of capability. This plan development is guided by a menu of actions to consider based on current and desired levels of capability. Users of the tool can take a full, highly detailed assessment, or a quick (1-minute) assessment to arrive at the point of selecting actions.</p>
+            
+            <p>Modeled after the <a href="http://www.aashtotsmoguidance.org/">AASHTO Systems Operations and Maintenance guidance</a>, this tool assesses traffic management capability in the same six dimensions &#8212; Business Processes, Systems and Technology, Culture, Organization and Workforce, Performance Measurement, and Collaboration. However, in this tool, traffic management is viewed as a subset of the larger Transportation Systems Management and Operations (<abbr>TSM&amp;O</abbr>) program. The capability levels and the actions are more focused and defined from a traffic manager's perspective. The actions may require other agencies to be the responsible party, which is intended to foster multi-agency collaboration and dialogue about traffic management at the regional level. Users that take this assessment are encouraged to share this tool with agencies that they collaborate and work with on traffic management of their respective transportation systems.</p>
+            
+            <p>Before initiating the assessment, you may want to identify the individuals in your Traffic Management Center or other traffic operations and planning personnel in the region who are best positioned and experienced to address the steps outlined above, and involve them throughout the self-evaluation and action planning process.</p>
+            
+            <h2 id="dimensions">The Key Dimensions of Capability</h2>
+            
+            <p>The assessment tool is built around the six key dimensions of capability.  The tool uses icons to represent these dimensions.  On-screen definitions are available to the user throughout the tool.  The icons representing the six dimensions and their associated definitions are shown below in <a href="#table1">Table 1</a> for your reference and convenience.</p>
+            
+            <table id="table1" class="instruction">
+              <caption>Table 1.  Icons and Definitions Used in the Tool for the Key Dimensions of Capability.</caption>
+              <tbody>
+              <tr>
+                <th scope="col">Dimension Icon</th>
+                <th scope="col">Definition</th>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/dimension_bp.jpg" width="132" height="146" alt="icon for Business Processes dimension"></td>
+                <td><p>Business processes, in the context of <abbr>TSM&amp;O</abbr>, refers to activities such as planning, programming, agency project development processes, and those organizational aspects that govern various technical or administrative functions such as training, human resource management, contracting and procurement, information technology, or agreements. In many cases, the business process elements go beyond the day-to-day operational activities and require broader institutional support and involvement to address. All of these processes are fundamental to the success of operations and management activities. Without the right procurement processes, partnering commitments, sustainable funding, internal awareness, and support, there could be a limited capacity to be able to implement more complex operations programs and activities.</p></td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/dimension_st.jpg" width="171" height="147" alt="icon for Systems and Technology dimension"></td>
+                <td><p>Use of the appropriate processes for design and implementation of systems will ensure that the needs of the region are appropriately addressed, that systems are implemented in an efficient manner, and that interoperability with other systems is achieved.</p></td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/dimension_pm.jpg" width="127" height="159" alt="icon for Performance Measurement dimension"></td>
+                <td><p>Performance measurement is essential as the means of determining program effectiveness, determining how changes are affecting performance, and guiding decision-making. In addition, operations performance measures demonstrate the extent of transportation problems and can be used to &ldquo;make the case&rdquo; for operations within an agency and for decision-makers and the traveling public, as well as to demonstrate to them what is being accomplished with public funds on the transportation system.</p></td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/dimension_ow.jpg" width="127" height="161" alt="icon for Organization and Workforce dimension"></td>
+                <td><p>Efficient execution of processes supporting effective programs requires appropriate combination of coordinated organizational functions and technical qualified staff with clear management authority and accountability.</p></td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/dimension_cult.jpg" width="127" height="146" alt="icon for Culture dimension"></td>
+                <td><p>Culture is the combination of values, assumptions, knowledge, and expectations of the agency in the context of its institutional and operating context, and as expressed in its accepted mission and related activities.</p></td>
+              </tr>
+              <tr>
+                <td class="text-center"><img src="images/dimension_collab.jpg" width="127" height="146" alt="icon for Collaboration dimension"></td>
+                <td><p>The development and implementation of <abbr>TSM&amp;O</abbr> requires a collaborative approach. The effectiveness of most strategies is dependent on improving the coordinated performance of each partner.</p></td>
+              </tr>
+              </tbody>
+            </table>
+
+            <h2 id="levels">The Four Levels of Capability</h2>
+            
+            <p>Within each of the key dimensions of capability, agencies are categorized as being at Levels 1 through 4.  <a href="#table2">Table 2</a> lists the four levels of capability and the associated key descriptor word and characteristics.  It is important to understand that levels of capability are not judgmental&#8212;they are simply an indication of the current capabilities of an agency.</p>
+            
+            <p>Many agencies taking the assessment today have results in Levels 1 and 2 across most or all of the key dimensions of capability.  The overall intent of the online tool is to provide agencies with a method to customize an action list to transform an agency by increasing the level of capability within each dimension.</p>
+            
+            <table id="table2" class="instruction">
+              <caption>Table 2.  Levels and Key Characteristics of Capability.</caption>
+              <tbody>
+              <tr>
+                <th scope="col">Level</th>
+                <th scope="col">Key Descriptor</th>
+                <th scope="col">Key Characteristics</th>
+              </tr>
+              <tr>
+                <td>1</td>
+                <td>Performed</td>
+                <td><ul>
+                      <li>Activities and relationships ad-hoc</li>
+                      <li>Champion driven</li>
+                    </ul></td>
+              </tr>
+              <tr>
+                <td>2</td>
+                <td>Managed</td>
+                <td><ul>
+                      <li>Processes developing</li>
+                      <li>Staff training</li>
+                      <li>Limited accountability</li>
+                    </ul></td>
+              </tr>
+              <tr>
+                <td>3</td>
+                <td>Integrated</td>
+                <td><ul>
+                      <li>Process documented</li>
+                      <li>Performance measured</li>
+                      <li>Organization / partners aligned</li>
+                      <li>Program budgeted</li>
+                    </ul></td>
+              </tr>
+              <tr>
+                <td>4</td>
+                <td>Optimized</td>
+                <td><ul>
+                      <li>Performance based improvement</li>
+                      <li>Formal program</li>
+                      <li>Formal partnerships</li>
+                    </ul></td>
+              </tr>
+              </tbody>
+            </table>
+
+            <h2 id="homescreen">The Home Screen</h2>
+            
+            <p><a href="#fig1">Figure 1</a> shows the home screen of the tool.  Note that the Uniform Resource Locator (<abbr>URL</abbr>) shown in the figure may be different once the tool is hosted in its permanent location at the Federal Highway Administration (<abbr>FHWA</abbr>).</p>
+            
+            <div class="figure" id="fig1">
+              <img src="images/fig1.png" width="624" height="484" alt="Figure 1. The Tool Home Screen. Screen capture of the Traffic Management Capability Maturity Framework Online Self-Assessment Tool home screen."><br>
+              <p class="caption">Figure 1.  The Tool Home Screen.</p>
+            </div>
+
+            <p>The home screen features several key navigational and informational elements:</p>
+            
+            <ul>
+              <li>Menu bar &#8211; provides access to all screens internal to the tool</li>
+              <li>Introductory text &#8211; a short introduction explaining the tool</li>
+              <li>Personalization information &#8211; text boxes to personalize your inputs into the tool (not required), and</li>
+              <li>Assessment path icons &#8211; two icons allowing a user to choose their desired path through the assessment.</li>
+            </ul>
+            
+            <h2 id="menu-bar">The Menu Bar</h2>
+            
+            <p>The menu bar for the tool (shown in <a href="#fig2">Figure 2</a>) remains the same across all screens of the tool for consistency.</p>
+            
+            <div class="figure" id="fig2">
+              <img src="images/fig2.png" width="624" height="27" alt="Figure 2. Tool Menu Bar. The menu bar for the online assessment tool which is found across all screens for consistency. Left to right: Start, Clear, Print Q&amp;A, Score, Actions, User's Guide, and Help."><br>
+              <p class="caption">Figure 2.  Tool Menu Bar.</p>
+            </div>
+
+            <p><a href="#table3">Table 3</a> shows the individual menu bar buttons and identifies their function within the tool.</p>
+
+            <table id="table3" class="instruction">
+              <caption>Table 3.  Menu Bar Buttons and Functions.</caption>
+              <tbody>
+              <tr>
+                <th scope="col">Menu Bar Button</th>
+                <th scope="col">Function</th>
+              </tr>
+              <tr>
+                <td class="text-right"><img src="images/menu_start.png" width="67" height="34" alt="'Start' menu bar button"></td>
+                <td><p>Pressing the &ldquo;start&rdquo; button while anywhere in the tool returns the user to the home screen of the self-assessment tool.  Pressing this button will prompt a dialogue box asking if the user is certain they want to leave the current screen within the tool.</p></td>
+              </tr>
+              <tr>
+                <td class="text-right"><img src="images/menu_clear.png" width="67" height="31" alt="'Clear' menu bar button"></td>
+                <td><p>Pressing the &ldquo;clear&rdquo; button erases all input data (question responses, comments, and descriptive information) internal to the tool.</p></td>
+              </tr>
+              <tr>
+                <td class="text-right"><img src="images/menu_qa.png" width="100" height="32" alt="'Print Q&amp;A' menu bar button"></td>
+                <td><p>Pressing the &ldquo;print <abbr>Q&amp;A</abbr>&rdquo; button provides a summary of the self-evaluation questions and answers suitable for printing or copying and pasting into another program.</p></td>
+              </tr>
+              <tr>
+                <td class="text-right"><img src="images/menu_score.png" width="70" height="33" alt="'Score' menu bar button"></td>
+                <td><p>Pressing the &ldquo;score&rdquo; button takes the user to a summary table of the most recent assessment results.</p></td>
+              </tr>
+              <tr>
+                <td class="text-right"><img src="images/menu_actions.png" width="80" height="32" alt="'Actions' menu bar button"></td>
+                <td><p>Pressing the &ldquo;actions&rdquo; button allows the user to select and print a customized set of actions across dimensions and levels, particular to the agency.</p></td>
+              </tr>
+              <tr>
+                <td class="text-right"><img src="images/menu_uguide.png" width="117" height="34" alt="'User&rsquo;s Guide' menu bar button"></td>
+                <td><p>Selecting the &ldquo;user's guide&rdquo; button <!--opens up a <abbr>PDF</abbr> of this user's guide-->opens up a new browser tab with this document.</p></td>
+              </tr>
+              <tr>
+                <td class="text-right"><img src="images/menu_help.png" width="63" height="32" alt="'Help' menu bar button"></td>
+                <td><p>Hovering over the &ldquo;help&rdquo; button displays context sensitive help applicable to the current screen the user is on in the tool.</p></td>
+              </tr>
+              </tbody>
+            </table>
+    
+            <h3 class="plan" id="tool-bar">Tool Bar Hovers and Context Sensitive Help</h3>
+            
+            <p><a href="#fig3">Figure 3</a> shows an example of the information box that is displayed when a user hovers their mouse or pointing device over one of the menu bar options.</p>
+            
+            <div class="figure" id="fig3">
+              <img src="images/fig3.png" width="624" height="487" alt="Figure 3. Hovers Showing Help Text for Menu Bar. Screen capture of the Traffic Management Capability Maturity Framework Online Self-Assessment Tool home screen with an example of the text that displays for a toolbar hover."><br>
+              <p class="caption">Figure 3.  Hovers Showing Help Text for Menu Bar.</p>
+            </div>
+            
+            <p><a href="#fig4">Figure 4</a> shows an example of the context sensitive help text.  The text displayed in this hover can change on a screen by screen basis.  The information contained in this hover will provide direction about what is displayed on the user's current screen and/or how to utilize the tool capabilities on that screen.</p>
+            
+            <div class="figure" id="fig4">
+              <img src="images/fig4.png" width="624" height="484" alt="Figure 4. Context Sensitive Help Text. Screen capture of the Traffic Management Capability Maturity Framework Online Self-Assessment Tool home screen with an example of the context sensitive help text that displays when accessing this screen."><br>
+              <p class="caption">Figure 4.  Context Sensitive Help Text.</p>
+            </div>
+            
+            <h3 class="plan" id="back-button">Use of the Back Button While Navigating the Tool</h3>
+            
+            <p>The tool is designed to function with all navigation internal to the tool.  The user does not need to use the back button of the browser or pointing device at any time.</p>
+            
+            
+            <h2 id="assessment-path">Choosing Your Assessment Path</h2>
+            
+            <p>Starting from the home screen, the tool allows for two levels of user assessment; a &ldquo;full assessment&rdquo; or a &ldquo;1-minute assessment.&rdquo;  The home screen also provides an opportunity for a user to input their name, email, agency, and department information.  <strong>This information is not required</strong> and is provided solely for a user to customize their assessment and printouts from the tool for their own benefit.  This information is stored in the local storage of the browser and is not transmitted anywhere externally, nor is it archived for future use.</p>
+            
+            
+            
+            
+            
+            
+            
+            
+            <p><a href="#fig5">Figure 5</a> illustrates the information input blocks to customize the tool outputs and an icon for each assessment path through the tool.</p>
+            
+            <div class="figure" id="fig5">
+              <img src="images/fig5.png" width="624" height="106" alt="Figure 5. Choosing Your Assessment Path Through the Tool. Screen capture portion of the Traffic Management Capability Maturity Framework Online Self-Assessment Tool home screen showing the information input boxes the user can use to customize their tool outputs and and an icon for each assessment path through the tool."><br>
+              <p class="caption">Figure 5.  Choosing Your Assessment Path Through the Tool.</p>
+            </div>
+            
+            <p>The full assessment path, will present a list of individual questions related to each dimension.  A series of answers will be provided for each question, allowing the user to select the response that most closely represents the current capability of their agency.</p>
+            
+            <p>The 1-minute assessment path will present a matrix showing generalized descriptions of agency capabilities within each dimension.  A user can then estimate the appropriate level without going through each individual question.</p>
+            
+            <p>It is important to understand that regardless of selecting the full or 1-minute assessment path, the user will arrive at the same point in the tool, with the same ability to prepare a customized list of actions to facilitate an agency moving between different levels in each dimension of capability.</p>
+            
+            <h3 class="plan" id="full-assessment">Selecting the Full Assessment Path</h3>
+            
+            <p><a href="#fig6">Figure 6</a> illustrates the information that a user would see when they select the full assessment path.  All questions related to a particular dimension of capability are presented at once.  The user may need to scroll vertically to see and answer each question.</p>
+            
+            <p><a href="#fig6">Figure 6</a> also illustrates the dimension icon and definition (as shown previously in <a href="#table1">Table 1</a>) that is displayed at the top of the screen.  This keeps the definition in full view of the user, allowing them to refer to the definition as needed.</p>
+            
+            <div class="figure" id="fig6">
+              <img src="images/fig6.png" width="624" height="485" alt="Figure 6.  Questions and Answers for the Full Assessment Path. Figure 6 illustrates a portion of the information that a user would see when they select the full assessment path. In addition to the questions, the dimension icon and definition is displayed at the top of the screen allowing the user to refer to it as needed."><br>
+              <p class="caption">Figure 6.  Questions and Answers for the Full Assessment Path.</p>
+            </div>
+            
+            <p>Select the most appropriate answer for the question by pressing the circular radio button in front of the question.  Only one answer is allowed per question.  If the user selects <abbr>N/A</abbr> (Not Applicable), the scoring mechanism for the tool will remove that question from the calculations.  Careful consideration should be made of all available answers before selecting <abbr>N/A</abbr>.</p>
+            
+            <p><a href="#fig6">Figure 6</a> also illustrates the capability to record notes pertinent to each question in the box below the answers.  This text box is not required, but is provided to give the user the ability to record any pertinent information or discussion related to the question at hand.</p>
+            
+            <p>After answering each question in a particular dimension, the user will see a button stating &ldquo;Next&rdquo; as illustrated in <a href="#fig7">Figure 7</a>.  The numbers to the left of the button indicate the total number of screens of questions (six, one screen for each dimension), and the number of question screens completed (in this case, one).</p>
+            
+            <div class="figure" id="fig7">
+              <img src="images/fig7.png" width="412" height="53" alt="Figure 7. Selecting &ldquo;Next&rdquo; To Continue Through the Assessment. Figure 7 illustrates the &ldquo;Next&rdquo; button a user will see along with what page number they are on in the process."><br>
+              <p class="caption">Figure 7.  Selecting &ldquo;Next&rdquo; To Continue Through the Assessment.</p>
+            </div>
+            
+            <p>After the first screen of questions, the user will have the opportunity to return to previous questions by selecting the &ldquo;Previous&rdquo; button at the bottom of the screen, as illustrated in <a href="#fig8">Figure 8</a>.</p>
+            
+            <div class="figure" id="fig8">
+              <img src="images/fig8.png" width="295" height="62" alt="Figure 8. Selecting &ldquo;Previous&rdquo; To Return to Previous Screens of Questions. Figure 8 illustrates the introduction of a &ldquo;Previous&rdquo; button that appears after the user submits their answers to the first screen of questions."><br>
+              <p class="caption">Figure 8.  Selecting &ldquo;Previous&rdquo; To Return to Previous Screens of Questions.</p>
+            </div>
+            
+            <p>At the conclusion of all the questions, the user will be presented with a button labeled &ldquo;Show Summary&rdquo;, as illustrated in <a href="#fig9">Figure 9</a>.  Selecting this button completes the question and answer session and shows the user the results of their assessment.</p>
+            
+            <div class="figure" id="fig9">
+              <img src="images/fig9.png" width="383" height="57" alt="Figure 9. Selecting &ldquo;Show Summary&rdquo; to See Assessment Results. Figure 9 illustrates the use of a &ldquo;Show Summary&rdquo; button that appears at the conclusion of all the questions."><br>
+              <p class="caption">Figure 9.  Selecting &ldquo;Show Summary&rdquo; to See Assessment Results.</p>
+            </div>
+            
+            <h3 class="plan" id="minute-assessment">Selecting the 1-Minute Assessment Path</h3>
+            
+            <p><a href="#fig10">Figure 10</a> illustrates the screen that a user would see if they chose the 1-minute assessment.  In this option, the user is presented with a matrix of dimensions and levels, and can simply select the level for each dimension that most closely matches the capability level of their agency. It is important to note that, unlike the full assessment option, the 1-minute assessment does not have the capability to record individual notes or pertinent information as part of the assessment routine.</p>
+            
+            <div class="figure" id="fig10">
+              <img src="images/fig10.png" width="624" height="484" alt="Figure 10. Matrix for 1-minute Assessment. Figure 10 illustrates the screen that a user would see if they chose the 1-minute assessment."><br>
+              <p class="caption">Figure 10.  Matrix for 1-minute Assessment.</p>
+            </div>
+            
+            <p>The user selects the desired level with their mouse or pointing device.  As illustrated in <a href="#fig11">Figure 11</a>, once selected, the chosen level will be highlighted.  The user can switch their selection as much as they want, but only one level is allowed to be selected per dimension. It is important to note that, if a user does not select a level for a particular dimension, the tool will default their answer to Level 1.</p>
+            
+            <p>Hovering over each dimension icon with the mouse or selection device will display a pop-up box containing the definition of the dimension.  Moving the mouse or selection device away from the icon will clear the hover box.</p>
+            
+            <p>At the bottom of the matrix, the user will see a blue &ldquo;Show Summary&rdquo; button.  Selecting this button completes the 1-minute assessment option and shows the user the results of their assessment.</p>
+            
+            <div class="figure" id="fig11">
+              <img src="images/fig11.png" width="625" height="484" alt="Figure 11. Highlighted User Selections on 1-minute Assessment Matrix. Figure 11 shows the matrix with highlighted levels after user selection."><br>
+              <p class="caption">Figure 11.  Highlighted User Selections on 1-minute Assessment Matrix.</p>
+            </div>            
+            
+            <h2 id="scoring">Scoring Your Assessment</h2>
+            
+            <p>As shown in <a href="#fig12">Figure 12</a>, the selection of the &ldquo;Show Summary&rdquo; displays a matrix of dimensions by assessed level.  If your selected path was the 1-minute assessment, the highlighted cells are the specific levels you chose for each dimension.  In this case of the 1-minute assessment, the second column (labeled as &ldquo;% score&rdquo;) will show values of zero since no individual questions were answered. The tool will automatically score your assessment.  No user interaction or calculation is required.  Similar to the previous screens, holding the mouse or selection tool over the dimension icon will produce a hover box with the dimension definition.</p>
+            
+            <p>In the case of the full assessment, utilizing individual questions, the second column will show the percentage of points scored vs. total points possible.  If a question during the full assessment was answered with <abbr>N/A</abbr> (Not Applicable), the point values for that question were removed from the scoring by the tool to avoid artificially lowering your percentage score.</p>
+            
+            <div class="figure" id="fig12">
+              <img src="images/fig12.png" width="624" height="485" alt="Figure 12. Scoring Results From Assessment. As shown in this figure, the selection of the &ldquo;Show Summary&rdquo; displays a matrix of dimensions by assessed level."><br>
+              <p class="caption">Figure 12.  Scoring Results From Assessment.</p>
+            </div>
+            
+            <p>At the top of the grid, the tool prints a note indicating how you arrived at the scoring matrix, i.e., either by the full or 1-minute assessment option.</p>
+            
+            <p>A user can return to the scoring matrix at any time and from any screen by selecting &ldquo;Score&rdquo; button from the tool menu.</p>
+            
+            <p>Selecting &ldquo;Choose Actions&rdquo; from within any the highlighted cells will start the process of creating a customized action list.  The selection order does not matter.  The actions selection process is fully interactive and users can switch back and forth between dimensions as they create customized lists.</p>
+            
+            <h2 id="action-list">Creating a Customized Action List</h2>
+            
+            <p>The online tool provides an intuitive process to create a customized action list for an agency to advance between levels in each key dimension of capability.</p>
+            
+            <p>Selecting &ldquo;Choose Actions&rdquo; from any of the highlighted cells in the scoring matrix presents the user with a screen similar to the one shown in <a href="#fig13">Figure 13</a>.  There are several items to take note of on this screen.</p>
+            
+            <ol>
+              <li>The dimension you clicked on the scoring matrix is highlighted in the left-most column.  In the example shown in <a href="#fig13">Figure 13</a>, &ldquo;Business Processes&rdquo; is highlighted in red, indicating that is the dimension that the user clicked on to start to action selections process.</li>
+              <li>The middle (red) column of the screen is labeled &ldquo;Available Actions&rdquo;.  Each action is outlined in its own box.  These boxes can be dynamically moved by dragging and dropping them into the third (green) column labeled &ldquo;My Selected Actions&rdquo;.</li>
+              <li>The text listed in the middle (red) column for each action is a description.  Additional information is available for each action and includes a rationale statement and the parties typically responsible for implementing that selected action.  This information is not presented in this actions selection dialogue but is processed in the background will be printed as part of the report showing the selected actions.</li>
+              <li>Above the &ldquo;Available Actions&rdquo; column, there are two text boxes.
+                <ol class="lalpha">
+                  <li>The first box is labeled &ldquo;Assessed&rdquo;, and it is the level resulting from your assessment path for the dimension of capability currently highlighted.</li>
+                  <li>The &ldquo;Assessed&rdquo; level is a result of the user assessment path (either full or 1-minute) and will not change unless the user decides to return to the questions and changes answers to result in a different assessment level.</li>
+                  <li>The second box is labeled &ldquo;Viewing&rdquo;.  It is a user-selectable drop-down menu that allows users to see actions from all levels of capability within a dimension.  Upon first entering the &ldquo;Available Actions&rdquo; screen, this drop-down is automatically set to show actions that would elevate you from your currently-assessed level to the next (improved) level.  In the example screenshot shown in <a href="#fig13">Figure 13</a>, the drop-down shows &ldquo;Level 2 to Level 3&rdquo; indicating that you were assessed at Level 2 and the default action would be to select actions to move to a Level 3 capability.</li>
+                </ol>
+              </li>
+            </ol>
+            
+            <p>The validation workshops performed during the construction of this tool indicated that although users may score at a particular level, the users may want to investigate and select actions at other levels.  Users of the tool can use the &ldquo;Viewing&rdquo; drop-down menu to select a different level step and see the associated actions.  Any desired actions from any level can be placed into the &ldquo;My Selected Actions&rdquo; box, as described in the next section.</p>
+            
+            <div class="figure" id="fig13">
+              <img src="images/fig13.png" width="624" height="486" alt="Figure 13. Action Selection Screen.  Example screenshot showing where a user can create a customized action list for an agency to advance between levels in each key dimension of capability."><br>
+              <p class="caption">Figure 13.  Action Selection Screen.</p>
+            </div>
+            
+            <p><a href="#fig14">Figure 14</a> shows the same screen with some actions selected by the user and dragged from the second (red) column to the third (green) column.  Actions can be moved back and forth at will.  There are no limitations on the number of actions that can be selected among the available actions within a particular dimension and level.</p>
+            
+            <p>It is expected that the selection of actions would be an interactive process amongst all group members who are assessing the agency's capability.  The actions selection dialogue automatically saves all your selections in the browser's local storage.  The user does not need to do anything to save their selections.</p>
+            
+            <p>Depending on the individual settings of the user's computer and screen size, vertical scrolling may be necessary in the process of dragging and dropping actions.  Dropping an action anywhere on the third (green) column will place it as a selected action.</p>
+            
+            <div class="figure" id="fig14">
+              <img src="images/fig14.png" width="624" height="486" alt="Figure 14. Actions Dialogue with Selected Actions.  Same example screenshot as in figure 13 except with some actions selected by the user and dragged from the second (red) column to the third (green) column."><br>
+              <p class="caption">Figure 14.  Actions Dialogue with Selected Actions.</p>
+            </div>
+            
+            <p>Users are free to move between dimensions and levels at will.  The tool will automatically save all changes and the selected actions will be retained unless the user removes the actions by dragging them from &ldquo;My Selected Actions&rdquo; (the green column) back to the &ldquo;Available Actions&rdquo; (the red column).  A user can even use the main menu and go to other areas of the tool and return to actions screen without losing any information on the selected actions.</p>
+            
+            <blockquote>The sole exception to the above rule is if a user clicks on the main menu option of &ldquo;Clear&rdquo; and accepts the warning to clear all information.  At that point all local storage is cleared and all previous answers, scoring results, and chosen actions will be reset to the default state.</blockquote>
+            
+            <p><a href="#fig15">Figure 15</a> shows the ability to select different levels within each dimension.  Once a different level is selected, the list of &ldquo;Available Actions&rdquo; in the second (red) column will change.  All actions previously moved to the third (green) column will remain intact, and the user can add any action items from this new list to the &ldquo;My Selected Actions&rdquo; (green) column.</p>
+            
+            <p>The actions in the &ldquo;My Selected Actions&rdquo; (green) column will not reset or change when the user selects different level steps from the &ldquo;Viewing&rdquo; drop-down box (i.e., Level 1 to Level 2, or Level 3 to Level 4).  The user does not have to worry about putting their selected actions in any order in the third (green) column.  The tool will automatically order actions on the output in a hierarchical manner starting from the lowest to the highest level.</p>
+            
+            <div class="figure" id="fig15">
+              <img src="images/fig15.png" width="624" height="284" alt="Figure 15. Selecting Different Capability Levels.  The figure shows the ability to select different levels from the 'viewing' drop-down list within each dimension."><br>
+              <p class="caption">Figure 15.  Selecting Different Capability Levels.</p>
+            </div>
+            
+            <h3 class="plan" id="printing-actions">Printing Actions</h3>
+            
+            <p>The primary output of the actions selection dialogue is to create a customized output of your selection actions.</p>
+            
+            <p>The print dialogue is shown above the third (green) column and can be activated at any time.  The print options are shown in <a href="#fig16">Figure 16</a>.</p>
+            
+            <div class="figure" id="fig16">
+              <img src="images/fig16.png" width="348" height="325" alt="Figure 16. Print Options for Action Selection Screen.  Screenshot of the print dialogue shown above the third (green) column.  The options can be activated at any time."><br>
+              <p class="caption">Figure 16.  Print Options for Action Selection Screen.</p>
+            </div>
+            
+            <p>There are several items to note pertaining to the print options.</p>
+            
+            <ol>
+              <li>As a reminder for the user, the currently selected dimension is displayed above the print options.  This changes dynamically as the user moves through the dimensions of capability in the first column.</li>
+              <li>The print option labeled &ldquo;<span style="text-decoration: underline;">All Actions All Levels</span>&rdquo; will print a fully formatted output of ALL of the action statements for ALL action levels within each dimension.  This option allows users to have a full set of action information for each dimension.</li>
+              <li>The print option labeled &ldquo;My Selection Actions&rdquo; will print a customized output from all actions currently in the third (green) column.</li>
+              <li>All print dialogues open up in a new browser tab so that the users never lose their place internal to the tool.</li>
+            </ol>
+            
+            <p><a href="#fig17">Figure 17</a> shows an example of the &ldquo;My Selected Actions&rdquo; print result in a new browser tab.  Users should note that due to browsers and printer differences, the physical output may look slightly different from the example shown in Figure 17.</p>
+            
+            <div class="figure" id="fig17">
+              <img src="images/fig17.png" width="624" height="486" alt="Figure 17. Example of &ldquo;My Selected Actions&rdquo; Formatted for Printing.  Screenshot of a user's selected actions displayed in a print-ready format."><br>
+              <p class="caption">Figure 17.  Example of &ldquo;My Selected Actions&rdquo; Formatted for Printing.</p>
+            </div>
+            
+            <p>Users should note that the action output from the tool, as shown in <a href="#fig17">Figure 17</a> contains additional information beyond that which is displayed in the tool. Specifically, the action output includes the following:</p>
+            
+            <ul>
+              <li>The dimension and definition</li>
+              <li>Headings highlighting the movement between levels, such as Level 2 to Level 3.</li>
+              <li>A text block indicating the improvement target by moving from one level to the next</li>
+              <li>A listing of sub-dimensions.  Sub-dimensions are specific categories of similar actions under each dimension.  Each sub-dimension has a definition which is included in the printout.</li>
+              <li>A numerical listing of the key actions under each sub-dimension.  Key actions are the ones selected by the user through the interactive actions selection process.</li>
+              <li>For each individual action, the following are available:
+                <ul>
+                  <li>The action statement,</li>
+                  <li>The action definition,</li>
+                  <li>The action rationale, and</li>
+                  <li>The party or parties  responsible for implementing the action</li>
+                </ul>
+              </li>
+            </ul>
+            
+            <h2 id="print-qa">Print <abbr>Q&amp;A</abbr></h2>
+            
+            <p>Similar to the actions, the tool contains a print capability to allow a user to record their individual questions, answers, and associated notes.  Please note that this output option only applies to the full assessment path.</p>
+            
+            <p>Selecting the &ldquo;Print <abbr>Q&amp;A</abbr>&rdquo; button from the tool menu will show a screen similar to <a href="#fig18">Figure 18</a>.  For each question, the answer selected by the user during the full assessment is highlighted.  Any notes recorded by the user during the assessment are also presented.</p>
+            
+            <div class="figure" id="fig18">
+              <img src="images/fig18.png" width="624" height="486" alt="Figure 18. Print Q&amp;A Capabilities.  Within the full assessment path, the tool contains a print capability which allows a user to record their individual questions, answers, and associated notes.  This figure is a screenshot of what a user may see when they select the &ldquo;Print Q&amp;A&rdquo; button from the menu bar."><br>
+              <p class="caption">Figure 18.  Print <abbr>Q&amp;A</abbr> Capabilities.</p>
+            </div>
+            
+            <p>At the top of the screen, there are two sub-menu options, &ldquo;Print&rdquo; and &ldquo;Text-Only Version&rdquo;.  Selecting &ldquo;Print&rdquo; will directly invoke the browser's print dialogue.  This dialogue differs slightly between browsers.  Slight formatting differences between the printed version and the on-screen version may be noticeable as different browsers support different levels of formatting in their print options.</p>
+            
+            <p>Selecting &ldquo;Text-Only Version&rdquo; will produce a plain text output of the questions and answers in a new browser tab.  This plain text option has been provided to facilitate a user desire to copy and paste questions and answers into other programs beyond the browser such as a word processor, spreadsheet, or presentation program.</p>
+            
+            <p>Note that in the text-only output (see example <a href="#fig19">Figure 19</a>), the selected answer for each question has an &ldquo;*&rdquo; in front of it.</p>
+            
+            <div class="figure" id="fig19">
+              <img src="images/fig19.png" width="623" height="486" alt="Figure 19. Text-Only Version Output.  Figure is a screenshot of what a &ldquo;Text-Only Version&rdquo; print option is selected."><br>
+              <p class="caption">Figure 19.  Text-Only Version Output.</p>
+            </div>       
+            
+          </div>
+        </div>
+      </div>
+    </div><!-- report-row -->
+  </div><!-- report-container -->
+
+
+  <script type="text/javascript">
+
+    /* fix console for IE, non developer console mode */  
+    if (typeof console == "undefined") {
+      var console = { log: function(o) { return false; }};
+    }
+
+    /***  
+    var campfire = TTI.PubSub({});
+    var reportContainer  = jQuery('.report-container');
+    var reportWrap = jQuery('.report-wrap');
+    reportWrap.empty();
+    reportWrap.append(TTI.fromDataURI(TTI.storage.reportDataURI));
+    ****/
+    
+    jQuery('h3.header').css('background','url(images/pdf_header.png');    
+
+    
+  </script>
+
+</body></html>

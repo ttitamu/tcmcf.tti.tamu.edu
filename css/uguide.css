@@ -1,0 +1,26 @@
+/*div.instruction h3.header, */div.instruction h1.header {
+  background: url(../images/pdf_header.png) no-repeat center center;
+  color: #FEDF86;
+  font-size: 28px;
+  height: auto;
+  line-height: 1.5;
+  padding: 25px;
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+
+div.instruction ul.none { list-style-type: none; margin-left: 0; }
+div.instruction ul.none ul.none { margin-bottom: 0px; }
+div.instruction ul.none ul.none li { margin-left: 35px; }
+
+div.instruction ol.lalpha { list-style-type: lower-alpha; }
+
+div.instruction table caption { font-weight: bold; margin-top: 20px; margin-bottom: 20px; }
+
+div.instruction .text-center { text-align: center; }
+div.instruction .text-right { text-align: right; }
+
+div.instruction div.figure { text-align: center; }
+div.instruction div.figure p.caption { font-weight: bold; margin-top: 20px; margin-bottom: 20px; font-size: 16px; }
+
+div.instruction blockquote { border: 1px solid #333; background-color: #ccc; padding: 20px; font-size: 16px; }

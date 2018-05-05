@@ -1,0 +1,235 @@
+{
+  "dimensionName": "Organization and Workforce",
+  "why": "Efficient execution of processes supporting effective programs requires appropriate combination of coordinated organizational functions and technical qualified staff with clear management authority and accountability.",
+  "level1TargetText": "In-house personnel have limited traffic management experience with no specialized experience in engineering, traffic analysis, etc. Agency personnel roles are fragmented.",
+  "level2TargetText": "Core staff knowledge, skills, and abilities (KSAs) are identified within the traffic management arena, and roles are linked across various responsible groups.",
+  "level3TargetText": "Traffic management staff members and their related knowledge, skills, and abilities are identified and established on a broad basis and within individual groups.",
+  "level4TargetText": "Traffic management program support exists to engage in advancement of knowledge, skills, and abilities. Formal and ongoing training on traffic management is offered and supported by the agency.",
+  "level4Improvements": "The results of the evaluation show that your agency has achieved a Level 4 status in organization and workforce. This means that within your agency, traffic management has been established as a core and sustainable program priority. Your agency's efforts in traffic management represent a continuous improvement process supported by top-level management and formal partnerships with other agencies. Your agency likely has significant experience with the action plans encompassed by the transition documents between Levels 1, 2, 3, and 4. Few agencies, however, have documented the continuing steps that should be taken to maintain and continually improve a Level 4 status. Compiling that information and expanding the guidance is a key desire of the Federal Highway Administration. Your feedback on both the tool and the Level 4 action items is critical to share. Please consider providing information from your agency on the continual improvement process for Level 4 to Jim.hunt@dot.gov.",
+  "subdimensions": [
+    {
+      "subdimensionID": "1",
+      "name": "Organizational Structure",
+      "text": "Actions under this sub-dimension help an agency create an organizational structure for traffic management that is effective. While there is no single recommended organizational structure, the actions emphasize clear identification of roles, responsibilities, leadership, and procedures necessary for the sustained growth of the program."
+    },
+    {
+      "subdimensionID": "2",
+      "name": "Recruitment and Retention",
+      "text": "Actions under this sub-dimension help an agency recruit and retain a workforce that is capable of meeting all the traffic management objectives. Actions emphasize cross-training and redundancy of capabilities in the workforce to minimize single points of failures in traffic management operations."
+    },
+    {
+      "subdimensionID": "3",
+      "name": "Staff Development/Professional Capacity Building",
+      "text": "Actions under this sub-dimension help an agency continually improve its staff capabilities and provide a formal approach to incorporating new staff into the traffic management operations. Actions emphasize in-house and external training needs to not only support current needs but also put the agency on sound footing for future traffic management opportunities."
+    }
+  ],
+  "actions": [
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Develop a comprehensive list of traffic management roles and responsibilities across the organization and identify cross-linkages to facilitate coordination.",
+      "definition": "Identifies and clarifies roles and responsibilities of all partners.",
+      "rationale": "Facilitates coordination between regional partners.",
+      "responsibility": "State DOT, MPO, municipality, county."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Provide list of cross-linked traffic management roles to all traffic management staff across the organization for reference and use in daily and strategic activities.",
+      "definition": "List the personnel assets and capabilities within of partner member agencies.",
+      "rationale": "Allows partner agencies to know who to call to receive support.",
+      "responsibility": "State DOT, MPO, municipality, county."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Develop high-level training mechanisms for traffic management staff related to all critical traffic management functions within the agency.",
+      "definition": "Establishes a program for ensuring that personnel assets are adequately cross-trained.",
+      "rationale": "Ensures that qualified personnel exist within agencies in the region.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Schedule a regular offering of high-level training as a function of personnel turnover.",
+      "definition": "Provides for regular training and capacity development for agency personnel assets.",
+      "rationale": "Ensures that there is a continuous supply of qualified personnel available to agency.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Develop an immediate action plan to address vacancies in critical traffic management program roles/capabilities.",
+      "definition": "Creates a strategic staffing and management plan for addressing current and future staffing shortfalls and issues.",
+      "rationale": "Promotes knowing the personnel resources needed to complete mission-critical programs.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "6",
+      "statement": "Assemble basic PCB activities with critical supporting material for specific traffic management functions.",
+      "definition": "Lists of all training activities necessary and available to perform mission-critical functions and activities.",
+      "rationale": "Helps agencies know the best available training and professional development resources.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Establish a core group for traffic management that includes staff for key roles requiring redundancy.",
+      "definition": "Identifies who and what the critical personnel assets and positions are within a region.",
+      "rationale": "Improves lines of communication and builds strong relationships with partner agencies.",
+      "responsibility": "State DOT, MPO, municipality, county."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Compile a database of traffic management personnel and resources across all organizational units and identify redundancy with core group roles.",
+      "definition": "Lists of key individual(s) within an organization that can provide technical assistance to other agencies if necessary.",
+      "rationale": "Improves the rapid identification of personnel assets available within an agency.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Create training courses/seminars that focus on critical aspects of all traffic management functions.",
+      "definition": "Ensures that agency assets are highly qualified to address mission of agency.",
+      "rationale": "Ensures that adequate personnel resources are available within the region to cover mission-critical activities and functions.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Devise a training program that periodically cross-trains all staff on critical functions and is regularly updated as roles, responsibilities, duties, and/or functions change.",
+      "definition": "Creates a  program for cross-training and professional development of in-house staff on mission-critical activities and functions.",
+      "rationale": "Ensures that multiple individuals have the capability to perform all mission-critical activities and functions.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "5",
+      "statement": "Construct a basic hierarchy of backup staff for critical functions that can be handled by cross-trained staff as needed.",
+      "definition": "Implements a planned approach to ensure adequate and appropriate personnel resources are available in times of crisis.",
+      "rationale": "Ensures that appropriate personnel are always available to perform mission-critical activities and functions during personnel shortfalls.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Identify those staff ideal for succession into key traffic management positions.",
+      "definition": "Lists of individuals within the organization who can fill key positions.",
+      "rationale": "Limits downtime associated with finding replacement personnel.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "7",
+      "statement": "Create a clearly defined and consistently applied process for career advancement for traffic management staff.",
+      "definition": "Lists of training and experience needed for personnel to assume next level of responsibility within organization.",
+      "rationale": "Provides staff with incentive to remain within agency.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "8",
+      "statement": "Establish a retraining program for staff to facilitate job reassignment for traffic management needs (e.g., systems engineering, modeling, software development/procurement, ITS hardware maintenance).",
+      "definition": "Ensures that staff members have the KSAs they need to progress within the organization.",
+      "rationale": "Ensures that staffing shortfalls can be filled quickly from within.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "9",
+      "statement": "Develop a formal and ongoing training PCB program on traffic management that is offered and supported by the agency.",
+      "definition": "Lists of core curriculum needed by personnel to advance to the next level.",
+      "rationale": "Provides opportunities for personnel to receive best available training.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Create a formal certification and/or training program for all traffic management operators.",
+      "definition": "Establishes a formal process for rewarding staff who expand KSAs beyond what is needed for current job.",
+      "rationale": "Provides incentive to organization to retain best and brightest personnel.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Design a comprehensive plan that includes procedures for sharing all traffic management resources across all organizational units.",
+      "definition": "Ensures that all mission-critical functions and activities can be performed during times of significant staffing shortfalls via a strategic staffing and management plan.",
+      "rationale": "Ensures that adequate personnel resources are available within the region to cover mission-critical activities and functions.",
+      "responsibility": "State DOT, MPO, municipality, county."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Develop detailed training courses for all core functions that address all KSAs necessary to perform specific traffic management roles and responsibilities.",
+      "definition": "Constructs a program for cross-training and professional development of in-house staff on mission-critical activities and functions.",
+      "rationale": "Ensures that agency personnel have the best available tools to perform critical decision-making.",
+      "responsibility": "Individual agencies, MPO."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Establish organizational hierarchy that supports and empowers traffic management decision-making at the level that requires it.",
+      "definition": "Empowers critical personnel to make decisions necessary to succeed.",
+      "rationale": "Facilitates the decision-making process; reduces \"paralysis by analysis.\"",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "4",
+      "statement": "Establish a formal succession plan for traffic management positions to ensure capabilities are maintained.",
+      "definition": "Outlines the KSAs and experience needed to perform mission-critical tasks and activities as part of a strategic plan approach.",
+      "rationale": "Establishes a clear pathway for individuals to see advancement within the organization.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Structure a mentoring and training program to ensure that staff members slated for succession are prepared at the appropriate time.",
+      "definition": "Allows agencies to develop personnel assets and reduces OTJ training needed.",
+      "rationale": "Facilitates the retention of the best and the brightest within an agency.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Implement procedures for capturing institutional knowledge for planned and unplanned personnel transitions.",
+      "definition": "Formalizes a program for capturing and documenting reasons why particular functions or activities are performed.",
+      "rationale": "Ensures that institutional knowledge does not escape when personnel leave.",
+      "responsibility": "Individual agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "7",
+      "statement": "Regularly offer certification and/or training that supports recruitment and retention efforts.",
+      "definition": "Ensures that agency personnel have access to training needed to progress to the next level within the organization.",
+      "rationale": "Provides incentive to organization to attract best and brightest personnel.",
+      "responsibility": "State DOT, MPO."
+    }
+  ]
+}

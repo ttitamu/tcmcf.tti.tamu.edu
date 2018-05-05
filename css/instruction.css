@@ -1,0 +1,126 @@
+div.instruction h1 {
+  
+  color: #24557c;
+  font-size: 28px;
+  line-height: 1.5;
+ /* width: 100%;*/
+}
+h1 span.levelnum { 
+	background-color: #24557C; 
+	color: #fff; 
+	padding: 4.5px 10px 1.5px;
+	font-weight: normal; 
+	font-size: 24px; 
+	font-family: serif; 
+	border-radius: 50%; 
+}
+div.instruction h3.header {
+  background: url(../images/pdf_header.png) no-repeat center center;
+  color: #FEDF86;
+  font-size: 28px;
+  height: auto;
+  line-height: 1.5;
+  padding: 25px;
+  text-align: center;
+  text-shadow: 4px 4px 2px rgba(0, 0, 0, 1);
+}
+div.instruction h2 {
+  border-bottom: 1px solid #444;
+  color: #3276B1;
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+}
+div.instruction h3.plan {
+  background-color: #3276B1;
+  color: #fefefe;
+  font-size: 18px;
+  font-weight: normal;
+  letter-spacing: 2px;
+  padding: 0 13px;
+  text-transform: uppercase;
+}
+div.instruction h4 {
+  border-bottom: 1px solid #777;
+  display: inline-block;
+  padding-bottom: 5px;
+  margin-bottom: 10px;
+}
+
+div.instruction ul,
+div.instruction ol {
+  margin-bottom: 20px;
+  margin-left: 35px;
+}
+
+div.instruction p,
+div.instruction td,
+div.instruction th,
+div.instruction li,
+div.instruction dl {
+  font-size: 18px;
+  line-height: 1.5;
+}
+div.instruction p + h2 {
+  padding-top: 20px;
+}
+
+div.instruction p.action {
+  color: #3276B1;
+  font-size: 18px;
+  font-style: italic;
+  font-weight: bold;
+}
+
+div.instruction span.term {
+  border-bottom: 1px solid #777;
+  display: inline-block;
+  font-style: italic;
+  margin-right: 0.25em;
+}
+
+div.instruction dt {
+  border-bottom: 1px solid #777;
+  /*clear: left;*/
+  color: #222;
+  display: inline-block;
+  /*float: left;*/
+  margin-bottom: 10px;
+  font-style: italic;
+  font-weight: normal;
+
+  padding-bottom: 3px;
+}
+div.instruction dt:after {
+  content: ": ";
+}
+div.instruction dd {
+  /*display: inline;
+  float: left;*/
+  margin-bottom: 15px;
+}
+
+
+table.instruction {
+  border-top: 1px solid #777;
+  border-right: 1px solid #777;
+  margin-bottom: 40px;
+}
+
+table.instruction th,
+table.instruction td {
+  border-bottom: 1px solid #777;
+  border-left: 1px solid #777;
+  padding: 5px 10px;
+}
+table.instruction th {
+  background-color: #3276B1;
+  border-bottom: 1px solid #444;
+  color: #fff;
+  font-weight: bold;
+  padding: 10px;
+  padding-right: 20px;
+  text-align: left;
+  text-transform: uppercase;
+}

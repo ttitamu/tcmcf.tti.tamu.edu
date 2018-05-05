@@ -1,0 +1,316 @@
+{
+  "dimensionName": "Systems and Technology ",
+  "why": "Use of the appropriate processes for design and implementation of systems will ensure that the needs of the region are appropriately addressed, that systems are implemented in an efficient manner, and that interoperability with other systems is achieved.",
+  "level1TargetText": "Traffic management approaches are developed on an ad hoc basis independent of the systems engineering process.",
+  "level2TargetText": "The systems engineering process and ITS architecture are consistently applied within the traffic management context.  Agencies apply advancements and technologies in spot locations.",
+  "level3TargetText": "Agencies apply advanced technologies but with a limited level of automation. Traffic management systems are replicated and integrated within operations, with standardized documentation.",
+  "level4TargetText": "Automation of traffic management processes is based on historical, current, and predicted data. New and emerging technologies are deployed on a continuous basis to improve system efficiency.",
+  "level4Improvements": "The results of the evaluation show that your agency has achieved a Level 4 status in systems and technology. This means that within your agency, traffic management has been established as a core and sustainable program priority. Your agency's efforts in traffic management represent a continuous improvement process supported by top-level management and formal partnerships with other agencies. Your agency likely has significant experience with the action plans encompassed by the transition documents between Levels 1, 2, 3, and 4. Few agencies, however, have documented the continuing steps that should be taken to maintain and continually improve a Level 4 status. Compiling that information and expanding the guidance is a key desire of the Federal Highway Administration. Your feedback on both the tool and the Level 4 action items is critical to share. Please consider providing information from your agency on the continual improvement process for Level 4 to Jim.hunt@dot.gov.",
+  "subdimensions": [
+    {
+      "subdimensionID": "1",
+      "name": "Integration/Interoperability",
+      "text": "Actions under this sub-dimensions focus on the decision-making approach used by agencies for traffic management. The intent of actions under this sub-dimension is to move agencies along a continuum toward more active management of their facilities. Actions specified in this area allow an agency to utilize more complex responses to mitigate both recurring and nonrecurring congestion."
+    },
+    {
+      "subdimensionID": "2",
+      "name": "Regional Architectures ",
+      "text": "Actions under this sub-dimension help an agency plan its projects and technology insertions with consideration of regional interoperability, collaboration, and data sharing. Actions identified here help agencies consider the implications of their particular projects on their broader region and support robust insertion of technology into the planning process."
+    },
+    {
+      "subdimensionID": "3",
+      "name": "Project Systems Engineering/Testing and Validation",
+      "text": "Actions under this sub-dimensions focus on the ability of agencies to implement systems and technology projects that successfully minimize cost and schedule risk while achieving desired system functionality. Actions emphasize the role of systems engineering principles in traffic management projects."
+    }
+  ],
+  "actions": [
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Develop IT resources (in house or outsourced) to handle routine technology deployments (both TMC hardware and software).",
+      "definition": "Establishes a basic and consistent level of IT capability (both human and physical) to position an agency to adopt technology platforms or upgrades.",
+      "rationale": "Sets the stage for an agency to be in a position to advance its operations and deployments, given that technology is an underlying requirement for most advancements.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Create baseline IT capability to access, analyze, and retain data from new technology/pilot deployments.",
+      "definition": "Establishes data retention capability (physical, logistical, and policy) to allow implementations to be reviewed for their effectiveness and areas of improvements.",
+      "rationale": "Analyzes traffic management deployments for their effectiveness, which cannot be accomplished in the absence of data.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Conduct an assessment of current and near-term future traffic management project information technology needs to develop a roadmap for project planning and production.",
+      "definition": "Allows the agency to understand IT requirements, both current and future, and develop a plan to meet those needs.",
+      "rationale": "Capabilities of involved agencies in information technology affect project implementation decisions and schedules.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Implement a decision-support framework within the agency to identify, assess, adopt, and implement new technologies and tools for traffic management.",
+      "definition": "Creates a systematic process to allow IT, as a core agency function, to participate in, plan for, and support traffic management deployments.",
+      "rationale": "Preference is for a rational and systematic process over an ad hoc approach to planning for the IT support functions of traffic management deployments.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "5",
+      "statement": "Prepare a living cost estimate as a companion document to the roadmap for traffic management project planning and production.",
+      "definition": "Establishes an ongoing planning and cost analysis component in IT support for traffic management deployments.",
+      "rationale": "Periodic or continuous cost estimating ensures that IT support costs for technology deployments are created, updated, and become an integral part of the overall planning process.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "6",
+      "statement": "Develop a catalog of traffic management operator functions by facility and/or software system.",
+      "definition": "Details the traffic management functions that are taking place today, by systems, as a baseline for current staffing, cost, and future needs and planning.",
+      "rationale": "Understanding and quantifying existing deployment needs is  necessary to advance to increasingly complex deployments.",
+      "responsibility": "All agencies operating traffic management systems."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "7",
+      "statement": "Establish current and future operator needs and identify deployment solutions that can address current needs with the potential upgrade for future capabilities.",
+      "definition": "Establishes a logical link and planning process between current needs and future traffic management deployments.",
+      "rationale": "Avoid surprises in the deployment of traffic management solutions by understanding, and planning for, the integration needs prior to implementation.",
+      "responsibility": "All agencies operating traffic management systems."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "8",
+      "statement": "Update regional architecture periodically to reflect expanding needs and as new projects warrant.",
+      "definition": "Establishes the regional architecture as a core communications and planning tool for agencies deploying traffic management solutions.",
+      "rationale": "Use regional architectures as a unifying tool for agencies to coalesce around a desired set of traffic management capabilities and future deployments.",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "9",
+      "statement": "Formally link the regional architecture back to the long-range transportation plan and TIP.",
+      "definition": "Further cements the regional architecture as a planning tool for agencies deploying traffic management solutions.",
+      "rationale": "Identify all traffic management deployments in the TIP and provide a formalized planning path to progress agencies in capabilities.",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Use regional traffic management plan in project planning and project selection process.",
+      "definition": "Establishes the regional traffic management plan as a core communications and project planning and selection tool for agencies deploying traffic management solutions.",
+      "rationale": "Records and formalizes future needs and relates them to specific deployments.",
+      "responsibility": "The lead or responsible agency(ies) for preparing the traffic management plan."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Develop a formal process for incorporating systems engineering into project planning.",
+      "definition": "Establishes systems engineering as a core agency process.",
+      "rationale": "Incorporates systems engineering as a core component of agency activities.",
+      "responsibility": "All agencies operating, planning, or deploying traffic management systems."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "12",
+      "statement": "Develop functional requirements for projects.",
+      "definition": "Establishes a consistent and formalized process for defining expectations for agency projects and deployments.",
+      "rationale": "Prevents the ad hoc assignment/assessment of priorities and needs to any particular process and ensures a consistent approach to deployments, tying directly to the planning and approval process.",
+      "responsibility": "All agencies operating, planning, or deploying traffic management systems."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Ensure that IT structure (agency or outsourced) has knowledge and expertise to handle complex integration requirements for new systems and technologies. ",
+      "definition": "Provides for the increased IT resources and skill sets necessary to accomplish more complex integration needs.",
+      "rationale": "Advance capabilities, by deploying traffic management systems and solutions that are increasingly technologically oriented.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Develop a methodology for sharing critical data among all traffic management functions using established open-standard interfaces, regardless of data origin or type.",
+      "definition": "Sets the tone for interoperability and data sharing to be a core functional requirement of agency traffic management deployments.",
+      "rationale": "Use of shared data, both internal to deploying agency and external to partner agencies, are critical to evaluation of and decision-making about traffic management deployments.",
+      "responsibility": "The lead or responsible agency for any particular traffic management deployment."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Develop a core integration roadmap that moves the traffic management functions from independent systems to common platforms for data sharing and operational information.",
+      "definition": "Creates the vision for shared systems utilizing common and/or shared data.",
+      "rationale": "Prevents stove piping of traffic management deployments and encourages agency-wide utilization and evaluation.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Create and implement comprehensive plan to update operator capabilities on a consistent basis across systems and in conjunction with future traffic management deployments.",
+      "definition": "Correlates integration and upgrade needs as a logical link between current capabilities and future traffic management deployments. ",
+      "rationale": "Avoid surprises in the deployment of traffic management solutions by understanding, and planning for, the update requirements of previous implementations.",
+      "responsibility": "All agencies operating traffic management systems."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Use regional architecture in congestion management, safety planning, and project selection processes.",
+      "definition": "Establishes the regional architecture as a key assessment component for approving and moving forward with new projects as well as addressing congestion mitigation needs.",
+      "rationale": "Creates a defensible project selection and prioritization process since regional architectures can be a planning tool.  Linking congestion/safety risk mitigation programs to the regional architecture provides a path to ensure regional buy-in and support.",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Establish formal process by which agencies update regional architecture (periodic and exception maintenance).",
+      "definition": "Establishes the regional architecture as a core communications and planning tool for agencies deploying traffic management solutions.",
+      "rationale": "Use regional architectures as a unifying tool for agencies to coalesce around a desired set of traffic management capabilities and future deployments.",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "7",
+      "statement": "Conduct regular training on systems engineering with staff.",
+      "definition": "Establishes a uniform level of systems engineering knowledge in agency staff.",
+      "rationale": "Maintains staff knowledge on key agency processes and accounts for employee turnover.",
+      "responsibility": "All agencies operating, planning, or deploying traffic management systems."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "8",
+      "statement": "Create a solid link between the systems engineering process and the regional architectures as a basis for future interface and data exchange requirements, both internal and external to the agency.",
+      "definition": "Establishes a feedback loop from the regional architecture and generalized data flows between agencies to specific accountable requirements.",
+      "rationale": "Provides a concrete process for moving from the high-level architecture to project-level specific requirements.",
+      "responsibility": "All agencies operating, planning, or deploying traffic management systems."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "9",
+      "statement": "Explore alternative procurement procedures.",
+      "definition": "Includes public-private partnerships as well as construction-manager-at-risk, design-build, and/or job-order-contracting approaches.",
+      "rationale": "Provides agencies the opportunity to realize cost or time savings by utilizing nontraditional procurement procedures.",
+      "responsibility": "All agencies operating, planning, or deploying traffic management systems."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Develop IT staffing (agency or outsourced) to the point where the capability exists to rapidly integrate new data, technologies, or systems into the existing agency enterprise systems and elements of data reporting, analysis, exchange, storage, and/or operator displays as necessary.",
+      "definition": "Sets the agency bar to achieve a level of IT capability that can handle any level of IT requirements for traffic management deployments.",
+      "rationale": "Develop a level of IT expertise not constrained by the technology requirements of new and enhanced traffic management deployments.",
+      "responsibility": "Any agency participating in the deployment and operational aspects of traffic management."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Establish a common traffic management data warehouse capability where all management applications supply data to the core warehouse.",
+      "definition": "Sets the expectation that traffic management data will be shared among applications and that data sharing is a critical function of the overall deployments.",
+      "rationale": "Use of shared data are more cost effective to the agency and allow for efficient utilization of scarce resources.",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Interface the data warehouse with the performance monitoring system to enable an agency-wide view of performance metrics from traffic management.",
+      "definition": "Sets the expectation that traffic management systems will be routinely evaluated and that obtaining and sharing data is a priority task of the agency.",
+      "rationale": "Evaluate all traffic management deployments on a periodic and recurring basis to ensure effective operations, efficient use of funds, protection of the public, and conformance to the area master plan for traffic management improvements.",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Enhance installed technology solutions to allow for autonomous operations without operator oversight.",
+      "definition": "Provides for the consideration of operator workload and automation aspects as a core component of advanced traffic management deployments.",
+      "rationale": "Achieve reduced or plateaus staffing and related costs of new systems by planning and implementing automation.",
+      "responsibility": "All agencies operating advanced traffic management systems."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "5",
+      "statement": "Ensure that data sharing capabilities extend to all traffic management systems (e.g., existing versus new deployments).",
+      "definition": "Reinforces that data sharing is a critical aspect of each and every deployment.",
+      "rationale": "Sharing of data is are critical to the proper performance of autonomous systems, and necessary to ensure that deployments do not operate in a data vacuum.",
+      "responsibility": "All agencies operating advanced traffic management systems."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "6",
+      "statement": "Automate the data analysis routines and system operations across software base without need for operator intervention.",
+      "definition": "Establishes a new level of responsiveness and goals for agency systems by removing the necessity for operator intervention prior to system action.",
+      "rationale": "Supports agency moves to affect staffing requirements regardless of the technology requirements of the deployment solutions.",
+      "responsibility": "All agencies operating advanced traffic management systems."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "7",
+      "statement": "Establish formal process to review interagency agreements.",
+      "definition": "Provides a formalized process for agencies to cooperate, share resources, and operate traffic management deployments and must be reviewed periodically for application to the latest deployments and circumstances.",
+      "rationale": "Establish a comprehensive process to establish roles, responsibilities, needs, and resource contributions by the  use of interagency agreements.",
+      "responsibility": "All regional agencies utilizing interagency agreements."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "8",
+      "statement": "Establish configuration management for changes to ITS architecture.",
+      "definition": "Establishes a formalized tracking process for changes to the regional architecture.",
+      "rationale": "Institute a formalized tracking process for changes to the regional architecture.  This protects all involved agencies by recording information pertaining to any change, allowing tracking back to an individual project or agency need, as institutional memory of living documents is often short lived. ",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "9",
+      "statement": "Extend the systems engineering process to not only design and integration but also testing, validation, operations, maintenance, and life-cycle approaches to replacements.",
+      "definition": "Utilizes the back side of the systems engineering process to incorporate the advantages throughout the entire agency enterprise.",
+      "rationale": "Applying the systems engineering benefits and efficiencies to steps beyond the design stage realizes additional benefits for agencies (lead and partnering) and continues to increase interoperability.  ",
+      "responsibility": "The lead or responsible agency for traffic management deployments in an area."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Establish joint procurement and contractual agreements among agencies to share/leverage available resources in deployment and TSM&O of traffic management.",
+      "definition": "Uses the purchasing power and increased units across multiple agencies to obtain better pricing or contractual relationships.",
+      "rationale": "Provides an opportunity for agency cost or time savings by utilizing joint procurement procedures.",
+      "responsibility": "All agencies operating, planning, or deploying traffic management systems."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Establish interagency or regional ITS equipment standards.",
+      "definition": "Establishes standards for ITS equipment across regional agencies.",
+      "rationale": "Use of joint standards across agencies promote consistencies in deployments, data sharing, and interoperability.",
+      "responsibility": "All agencies operating, planning, or deploying traffic management systems."
+    }
+  ]
+}

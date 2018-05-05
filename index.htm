@@ -1,0 +1,625 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>TMCMF Assessment</title>
+  <script src="js/jquery_1.7.1.min.js"></script>
+  <!-- Le styles -->
+  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <style type="text/css">
+  body {
+    padding-bottom: 40px;
+  }
+  #outer-container { 
+    padding-top: 70px;
+  }
+  
+  </style>
+  <link href="lib/bootstrap/css/bootstrap_responsive.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" media="screen,print">
+  <link href="css/print.css" rel="stylesheet" media="print">
+  <link href="css/instruction.css" rel="stylesheet" media="screen,print">
+
+  <script src="js/array.js"></script>  
+  <script src="js/eachify.js"></script>  
+  <script src="js/dom.js"></script>  
+  <script src="js/dropdownfield.js"></script>  
+  <script src="js/lightbox.js"></script>  
+  <script src="js/webtoolkit.base64.js"></script>  
+  <script src="js/pubsub.js"></script>  
+  <script src="js/storage.js"></script>  
+  <script src="js/shoppingcart.js"></script>
+  <script src="js/bootup.js"></script>  
+  <script src="js/quizdata.js"></script>  
+  <script src="js/quiz.js"></script>  
+  
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>  
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+
+  <link rel="stylesheet" href="css/jquery_ui.css">
+  <script src="js/jquery_ui.js"></script>
+
+<link href="hotm_report_css/ops_print_rpt.css" rel="stylesheet" media="print" type="text/css">
+<link href="hotm_report_css/ops_nn4_rpt.css" rel="stylesheet" media="screen" type="text/css" title="FHWA Operations Report Stylee Sheet">
+<style type="text/css">
+@import url(hotm_report_css/ops_rpt.css);
+</style>
+
+
+</head>
+<body>
+<!-- OPS HEADER START -->
+<table id="ops-header" style="border: 0; width: 100%; padding: 0; border-spacing: 0; border-collapse: separate;">
+  <tr> 
+    <td class="fhwa-bar" id="dot-logo"><img src="images/ops_images/dotfhwa2.gif" alt="Department of Transportation: Federal Highway Administration" width="210" height="31" style="border: 0;"></td>
+    <td class="fhwa-bar" id="fhwa-links"><span id="skiplink"><a href="#content"><img src="images/ops_images/skiplink.gif" alt="Skip to Content" width="1" height="1" style="border: 0;"></a></span><a href="http://www.fhwa.dot.gov"><img src="images/ops_images/fhwahome.gif" width="79" height="18" style="border: 0;" alt="FHWA Home"></a><a href="http://www.ops.fhwa.dot.gov/contactus.htm"><img src="images/ops_images/feedback.gif" width="90" height="18" alt="Feedback" style="border: 0;"></a></td>
+  </tr>
+  <tr id="opsbanner"> 
+    <td id="obsbanner1"><a href="http://www.ops.fhwa.dot.gov/index.asp"><img src="images/ops_images/ops_red_banner.gif" alt="Office of Operations" width="243" height="25" style="border: 0;"></a></td>
+	<td id="obsbanner2"><div style="text-align: right;"><img src="images/ops_images/21century.gif" alt="21st Century Operations Using 21st Century Technologies" width="490" height="25"></div></td>
+  </tr>
+</table>
+<!-- OPS HEADER END -->
+<div id="navbar" class="navbar was-navbar-inverse was-navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="brand">Traffic Management Capability Maturity Framework</span>
+        
+
+        <div class="btn-group-wrap pull-right">
+          
+          <div class="btn-group pull-right offset2">
+            <a tabindex="12" class="btn btn-default btn-users-guide post-it" href="javascript:void(0);">User's Guide</a>
+            <a tabindex="13" class="btn btn-default btn-help post-it" href="javascript:void(0);">Help</a>
+          </div>
+          
+          <div class="btn-group pull-right">
+            <a tabindex="9" class="btn btn-info btn-final-summary" href="javascript:void(0);">Print Q&amp;A</a>
+            <a tabindex="10" class="btn btn-info btn-score" href="javascript:void(0);">Score</a>
+            <a tabindex="11" class="btn btn-info btn-actions" href="javascript:void(0);">Actions</a>
+          </div>
+          
+          <div class="btn-group pull-right">
+            <a tabindex="7" class="btn btn-success btn-start" href="javascript:void(0);">Start</a>
+            <a tabindex="8" class="btn btn-success btn-clear" href="javascript:void(0);">Clear</a>
+          </div>
+          
+          
+          
+        </div>
+
+
+
+        
+      </div><!-- container -->
+    </div><!-- navbar-inner -->
+  </div><!-- navbar -->
+  <div class="container-fluid" id="outer-container">
+    <div class="row-fluid">
+      <div id="quiz-wrap">
+        <div class="intro">
+          <h1>Welcome</h1>
+          <p>
+              Welcome to the Traffic Management Capability Maturity Self-Evaluation Tool. This tool is intended to help agencies/regions assess their current traffic
+              management capabilities and develop an implementation plan for moving to a higher level of capability. This plan development is guided by a menu of actions
+              to consider based on current and desired levels of capability. Users of the tool can take a full, highly detailed assessment, or a quick (1-minute)
+              assessment to arrive at the point of selecting actions.
+          </p>
+          <p>
+              Modeled after the <a href="http://www.aashtotsmoguidance.org/">AASHTO Systems Operations and Maintenance guidance</a>, this tool assesses traffic management
+              capability in the same six dimensions — Business Processes, Systems and Technology, Culture, Organization and Workforce, Performance Measurement, and
+              Collaboration. However, in this tool, traffic management is viewed as a subset of the larger Transportation Systems Management and Operations (TSM&amp;O)
+              program. The capability levels and the actions are more focused and defined from a traffic manager's perspective. The actions may require other agencies to
+              be the responsible party, which is intended to foster multi-agency collaboration and dialogue about traffic management at the regional level. Users that
+              take this assessment are encouraged to share this tool with agencies that they collaborate and work with on traffic management of their respective
+              transportation systems.
+          </p>
+          <p>
+              Before initiating the assessment, you may want to identify the individuals in your Traffic Management Center or other traffic operations and planning
+              personnel in the region who are best positioned and experienced to address the steps outlined above, and involve them throughout the self-evaluation and
+              action planning process.
+          </p>
+        </div><!-- intro -->
+
+        <div class="form-wrap span4">
+          <form class="form-horizontal" id="informal" accept-charset="utf-8">
+            <div class="control-group">
+            	<label for="name" class="control-label" >	
+            		Name 
+            	</label>
+            	<div class="controls">
+            		<input tabindex="1" name="name" placeholder="Type your name here" type="text" value="" id="name">
+            	</div>
+            </div>
+            
+            <div class="control-group">
+            	<label for="email" class="control-label">	
+            		Email 
+            	</label>
+            	<div class="controls">
+            		<input tabindex="2" name="email" placeholder="Type your email here"  type="email" value="" id="email">
+            	</div>
+            </div>
+            
+            <div class="control-group">
+            	<label for="agency" class="control-label">	
+                Agency
+            	</label>
+            	<div class="controls">
+            	 <input tabindex="3" name="agency" placeholder="Type your agency here" type="text" value="" id="agency">
+            	</div>
+            </div>
+            
+            <div class="control-group">
+            	<label for="department" class="control-label">	
+                Department
+            	</label>
+            	<div class="controls">
+            	 <input tabindex="4" name="department" placeholder="Type your department here" type="text" value="" id="department">
+            	</div>
+            </div>
+          </form>        
+        </div><!-- form-wrap -->
+        <div class="buttons-wrap span5 pull-right">
+          <a tabindex="5" href="javascript:void(0);"><img alt="Full Assessment" class="begin-button btn-take-full-quiz btn-full-assessment" src="images/full_assessment.png" /></a>
+          <a tabindex="6" href="javascript:void(0);"><img alt="One-Minute Asessment" class="btn-one-minute-assessment" src="images/one_minute.png"></a>
+        </div><!-- buttons-wrap -->
+      </div><!-- quiz-wrap -->
+      <div id="shopping-wrap">
+      </div><!-- shopping-wrap -->
+        <div id="pretest-wrap">
+        </div><!-- pretest-wrap -->
+    </div><!-- row-fluid -->
+  </div><!-- container-fluid -->
+  <div class="container-fluid report-container">
+    <div class="row-fluid report-row">
+      <div class="col-md-2"></div>
+      <div class="instruction col-md-8 report-wrap"></div>
+    </div><!-- report-row -->
+  </div><!-- report-container -->
+
+
+  <!--<a id="test-link">TEST LINK</a>-->
+
+  <script type="text/javascript">
+
+    /* fix console for IE, non developer console mode */  
+    if (typeof console == "undefined") {
+      var console = { log: function(o) { return false; }};
+    }
+
+    var campfire = TTI.PubSub({});
+    var quiz = TTI.Quiz({
+      questions: TTI.questions,
+      gossip: campfire
+    });
+    TTI.quiz = quiz;
+    quiz.loadYourself();
+    
+    
+    
+    TTI.quizData.dimensions.each(function(o){
+      var slug = TTI.slugify(o.name);
+      o.slug = slug;
+    });
+    
+    
+    var shoppingWrap = jQuery('#shopping-wrap');
+    
+    var quizWrap = jQuery('#quiz-wrap');
+    
+    var reportContainer  = jQuery('.report-container');
+    
+    var reportWrap = jQuery('.report-wrap');
+    quiz.renderOn(quizWrap);
+
+    var cart = false; //reuse this
+    
+    quiz.subscribe('custom-action',function(payload){
+      ////console.log('payload',payload);
+      cart = TTI.ShoppingCart(payload);
+
+      /***
+      cart = TTI.ShoppingCart({
+        dimension: payload.dimension,
+        level: payload.level,
+        map: payload.map
+      });
+      ****/
+      
+      TTI.cart = cart;
+      
+      shoppingWrap.empty();
+      cart.renderOn(shoppingWrap);
+      
+      
+      cart.subscribe('checkout',function(o){
+        ////cart.renderCartActionsOn(reportWrap);
+        ///cart.publish('report-datauri',TTI.toDataURI(reportContainer));
+        var containerFluid = DOM.div().addClass('container-fluid');
+        var rowFluid = DOM.div().addClass('row-fluid');
+        var spacer = DOM.div().addClass('col-md-2');
+        var instruction = DOM.div().addClass('instruction col-md-8 report-wrap');
+        
+        cart.renderCartActionsOn(instruction);
+        
+        rowFluid.append(spacer);
+        rowFluid.append(instruction);
+        containerFluid.append(rowFluid);
+        cart.publish('report-datauri',TTI.toDataURI(containerFluid));
+      });
+      
+      
+      cart.subscribe('blip-hover-start',function(o){
+        campfire.publish('blip-hover-start',o);
+      });
+      cart.subscribe('blip-hover-end',function(o){
+        campfire.publish('blip-hover-end',o);
+      });
+      
+      
+    });
+    
+    
+    
+    
+
+
+    
+
+    TTI.currentHelp = 'start';
+
+    
+    
+    
+    var btnHelp = jQuery('.btn-help');
+    btnHelp.hover(
+      function(){
+
+
+        jQuery.ajax({
+          type: 'GET',
+          url: 'help.' + TTI.currentHelp + '.txt', 
+          success: function(msg) {
+          
+            campfire.publish('blip-hover-start',function(wrap){
+              
+              wrap.append(DOM.h4('Help'));
+              wrap.append(DOM.p(msg).addClass('help-text'));
+            });
+          
+          
+          }
+        });
+
+
+      },
+      function(){
+        campfire.publish('blip-hover-end',null);
+      }
+    );
+    
+    
+    
+    
+    
+    
+    
+    
+    var btnStart = jQuery('.btn-start');
+    btnStart.click(function() {
+      TTI.currentHelp = 'start';
+      window.location.href = './';
+    });
+
+
+
+
+    btnStart.hover(
+      function(){
+        campfire.publish('blip-hover-start',function(wrap){
+          wrap.append(DOM.h4('Start'));
+          wrap.append(DOM.p('Return to the home page of this self-evaluation tool').addClass('help-text'));
+        });
+      },
+      function(){
+        campfire.publish('blip-hover-end',null);
+      }
+    );
+
+    var btnClear = jQuery('.btn-clear');
+    btnClear.click(function() {
+    
+      if (!confirm('Delete all saved answers and scoring?')) { return false; }
+    
+    
+      TTI.storage.clear();
+      quiz.loadYourself();
+      location.href = './';
+      ////console.log('cleeeear!');
+    });
+    btnClear.hover(
+      function(){
+        campfire.publish('blip-hover-start',function(wrap){
+          wrap.append(DOM.h4('Clear'));
+          wrap.append(DOM.p('Erase ALL comments and description information entered by the user').addClass('help-text'));
+        });
+      },
+      function(){
+        campfire.publish('blip-hover-end',null);
+      }
+    );
+
+
+    var btnFinalSummary = jQuery('.btn-final-summary');
+    btnFinalSummary.click(function() {
+      TTI.currentHelp = 'print';
+      shoppingWrap.empty();
+      quiz.renderPrintableSummaryOn(quizWrap);
+    });
+    btnFinalSummary.hover(
+      function(){
+        campfire.publish('blip-hover-start',function(wrap){
+          wrap.append(DOM.h4('Print Q&A'));
+          wrap.append(DOM.p('A summary of all the self-evaluation questions and your answers and comments, formatted for printing').addClass('help-text'));
+        });
+      },
+      function(){
+        campfire.publish('blip-hover-end',null);
+      }
+    );
+
+    var btnActions = jQuery('.btn-actions');
+    btnActions.click(function() {
+    
+      TTI.currentHelp = 'action';
+    
+    
+      shoppingWrap.empty();
+      quizWrap.empty();
+      var dim = TTI.quizData.dimensions[0];
+      var level = dim.levels[0];
+
+      if (TTI.storage['latest-map']) {
+        TTI.latestMap = JSON.parse(TTI.storage['latest-map']);
+      }
+      if (!TTI.latestMap || Object.keys(TTI.latestMap).length == 0) {
+        /////alert('getting fresh map');
+        TTI.latestMap = quiz.getDimensionLevelsByScore();
+        TTI.storage['latest-map'] = JSON.stringify(TTI.latestMap);
+      }
+
+
+      quiz.publish('custom-action',{ map: TTI.latestMap, dimension: dim, level: level });
+    });
+    btnActions.hover(
+      function(){
+        campfire.publish('blip-hover-start',function(wrap){
+          wrap.append(DOM.h4('Actions'));
+          wrap.append(DOM.p('Provides the ability to select and print a custom set of actions across all levels, particular to your agency, for each dimension.').addClass('help-text'));
+        });
+      },
+      function(){
+        campfire.publish('blip-hover-end',null);
+      }
+    );
+
+
+
+    var btnScore = jQuery('.btn-score');
+    btnScore.click(function(e) {
+      //e.stopPropagation();
+      
+    
+
+      TTI.currentHelp = 'score';
+
+      shoppingWrap.empty();
+      quizWrap.empty();
+
+
+      if (TTI.storage['latest-map']) {
+        TTI.latestMap = JSON.parse(TTI.storage['latest-map']);
+      }
+      if (!TTI.latestMap) {
+        ////alert('getting fresh map');
+        TTI.latestMap = quiz.getDimensionLevelsByScore();
+        TTI.storage['latest-map'] = JSON.stringify(TTI.latestMap);
+      }
+
+
+      console.log('TTI.latestMap',TTI.latestMap);
+
+
+      quiz.renderSummaryGridOn(quizWrap,TTI.latestMap);
+
+
+    });
+    btnScore.hover(
+      function(){
+        campfire.publish('blip-hover-start',function(wrap){
+          wrap.append(DOM.h4('Score'));
+          wrap.append(DOM.p('Review a summary table of the assessment results.').addClass('help-text'));
+        });
+      },
+      function(){
+        campfire.publish('blip-hover-end',null);
+      }
+    );
+
+
+    var btnUsersGuide = jQuery('.btn-users-guide');
+    btnUsersGuide.hover(
+      function(){
+        campfire.publish('blip-hover-start',function(wrap){
+          wrap.append(DOM.h4('User\'s Guide'));
+          wrap.append(DOM.p('Selecting this button opens up a concise user’s guide to the tool in a new browser window.').addClass('help-text'));
+        });
+      },
+      function(){
+        campfire.publish('blip-hover-end',null);
+      }
+    );
+    
+    btnUsersGuide.click(function(){
+      window.open('users_guide.htm');
+    
+    });
+
+
+
+
+
+
+
+  jQuery('#navbar .btn').click(function(){
+    highlightNavButton(this); 
+  });
+    
+
+    var blipBox = DOM.div().addClass('blip-box');
+    jQuery(document.body).append(blipBox);
+    var hovering = false;
+    var lastHover = -1;
+
+
+    campfire.subscribe('blip-maybe-fade',function(){
+      if (hovering) { return false;}
+      blipBox.fadeOut();
+    });
+    
+    campfire.subscribe('blip-hover-start',function(callback){
+      hovering = true;
+      blipBox.empty();
+      callback(blipBox);
+      
+      blipBox.css('top',(TTI.scrollTop() + 170) + 'px');
+      blipBox.fadeIn();
+      lastHover = (new Date()).getTime();
+    });
+    
+
+    campfire.subscribe('blip-hover-end',function(callback){
+        hovering = false;
+        setTimeout(function(){
+          campfire.publish('blip-maybe-fade',null);
+        },600);
+    });
+    
+    
+  function showDisclaimer() {
+    /////console.log('show dis');
+    var content = DOM.div();
+    
+    content.append('placeholder text for disclaimer');
+    
+    /********
+    var lb = TTI.Widgets.Lightbox({
+      content: content,
+      top: 30 + (TTI.scrollTop() * 1.7) + 'px',
+      left: '30%',
+      width: '40%',
+      scrollTopCallback: function() { return (TTI.scrollTop() + 40) + 'px' }
+    });
+    lb.show();
+    ********/
+    
+    
+    campfire.publish('blip-hover-start',function(wrap){
+      wrap.append(DOM.h4('Please Note'));
+      var p = DOM.p();
+      p.append('The Traffic Management CMF Tool presented here is a developmental version. Updates are being made based on practitioner feedback.<br /><br /> The link is being shared with selected external (outside the project and Government project team) partners to provide preview of the general structure and user interface to the capability maturity frameworks.<br /><br /> Care should be exercised in experimenting with the tool until it is finalized and made available through the FHWA website.');
+      wrap.append(p);
+      wrap.append(DOM.br());
+      var a = DOM.a('(close)').css('cursor','pointer');
+      a.click(function(){
+        campfire.publish('blip-hover-end',null);    
+      });
+      wrap.append(a);
+      
+      
+    });
+    setTimeout(function(){
+      campfire.publish('blip-hover-end',null);
+    },30000);
+    
+    TTI.storage.setItem('disclaimer-shown','YES');  
+  }  
+  
+  
+  if (TTI.storage.getItem('disclaimer-shown') == null) {
+    setTimeout(showDisclaimer,2000);      
+  }
+
+
+  ['name','email','agency','department'].each(function(o){
+    var value = TTI.storage[o];
+    var elem = jQuery('#' + o);
+    
+    if (value) {
+      elem.val(value);
+    }
+    elem.change(function(){
+      TTI.storage[o] = this.value;
+    });
+    
+    
+  });
+
+</script>
+
+<!-- OPS FOOTER START -->  
+<table style="border: 0; width: 100%; padding: 0; border-spacing: 0; border-collapse: separate;">
+  <tr>
+    <td colspan="3" id="footer-bar"><img src="images/ops_images/empty_cell.gif" width="10" height="10" alt=""></td>
+  </tr>
+  <tr style="vertical-align: top"> 
+    <td id="footer-logo"><img src="images/ops_images/fhwatag.gif" alt="FHWA" width="89" height="18"></td>
+    <td id="footer-links"><p class="footer-links"><a href="http://www.dot.gov">US DOT Home</a> | <a href="http://www.fhwa.dot.gov/">FHWA Home</a> | <a href="http://ops.fhwa.dot.gov/">Operations Home</a> | <a href="http://www.fhwa.dot.gov/privacy.cfm">Privacy Policy</a></p>
+      <p>United States Department of Transportation - Federal Highway Administration</p></td>
+    <td id="javadate">
+      <script type="text/javascript"><!--
+revdate = new Date(document.lastModified);
+if (revdate.getYear() == 69) {
+	// workaround for .asp pages (some browsers do not interpret the lastModified date properly);
+	// just reset the date to today
+	revdate = new Date();
+}
+year = revdate.getYear();
+if (year > 1999)
+ year = year
+else
+ if (year < 90)
+ year = year+2000
+ else
+ year = year+1900;
+month = revdate.getMonth() + 1;
+day = revdate.getDate();
+var mon;
+
+if (month==0) mon = "January";
+if (month==1) mon = "January";
+if (month==2) mon = "February";
+if (month==3) mon = "March";
+if (month==4) mon = "April";
+if (month==5) mon = "May";
+if (month==6) mon = "June";
+if (month==7) mon = "July";
+if (month==8) mon = "August";
+if (month==9) mon = "September";
+if (month==10) mon = "October";
+if (month==11) mon = "November";
+if (month==12) mon = "December";
+
+document.write("&nbsp;&nbsp;Last modified: " + mon + " " + day + ", " + year + "&nbsp;&nbsp;");
+// -->
+</script>
+    </td>
+  </tr>
+</table>
+<!-- OPS FOOTER END -->
+  
+  
+  
+</body>
+</html>

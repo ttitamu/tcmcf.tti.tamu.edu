@@ -1,0 +1,6 @@
+#navbar { display: none; }
+.btn-print { display: none; }
+h1, h2, h3, h4, h5, h6 { font-size: 1em; }
+ul, li { list-style-type: none; }
+table, tr, th, td { border: 0; border-color: #fff; }
+textarea { border: 0; }

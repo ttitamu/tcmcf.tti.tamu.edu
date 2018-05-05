@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>TMCMF Report</title>
+  <script src="js/jquery_1.7.1.min.js"></script>
+  <!-- Le styles -->
+  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <link href="css/style.css" rel="stylesheet" media="screen,print">
+  <link href="css/instruction.css" rel="stylesheet" media="all">
+  <link href="css/instruction_print.css" rel="stylesheet" media="print">
+
+  <script src="js/array.js"></script>  
+  <script src="js/eachify.js"></script>  
+  <script src="js/dom.js"></script>  
+  <script src="js/dropdownfield.js"></script>  
+  <script src="js/webtoolkit.base64.js"></script>  
+  <script src="js/pubsub.js"></script>  
+  <script src="js/storage.js"></script>  
+  <script src="js/bootup.js"></script>  
+  <script src="js/quizdata.js"></script>  
+  <script src="js/quiz.js"></script>  
+  
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>  
+  <link rel="shortcut icon" type="image/x-icon" href="images/favicon.ico">
+</head>
+<body>
+  <div class="container-fluid report-container">
+    <div class="row-fluid report-row">
+      <div class="col-md-2"></div>
+      <div class="instruction col-md-8 report-wrap"></div>
+    </div><!-- report-row -->
+  </div><!-- report-container -->
+
+
+  <script type="text/javascript">
+
+    /* fix console for IE, non developer console mode */  
+    if (typeof console == "undefined") {
+      var console = { log: function(o) { return false; }};
+    }
+  
+    var campfire = TTI.PubSub({});
+    var reportContainer  = jQuery('.report-container');
+    var reportWrap = jQuery('.report-wrap');
+    reportWrap.empty();
+    reportWrap.append(TTI.fromDataURI(TTI.storage.reportDataURI));
+    
+    jQuery('h3.header').css('background','url(images/pdf_header.png');    
+
+    
+  </script>
+</body>
+</html>

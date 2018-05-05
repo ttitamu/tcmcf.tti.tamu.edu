@@ -1,0 +1,460 @@
+{
+  "dimensionName": "Business Process",
+  "why": "Business processes, in the context of TSM&O, refers to activities such as planning, programming, agency project development processes, and those organizational aspects that govern various technical or administrative functions such as training, human resource management, contracting and procurement, information technology, or agreements. In many cases, the business process elements go beyond the day-to-day operational activities and require broader institutional support and involvement to address. All of these processes are fundamental to the success of operations and management activities. Without the right procurement processes, partnering commitments, sustainable funding, internal awareness, and support, there could be a limited capacity to be able to implement more complex operations programs and activities. ",
+  "level1TargetText": "Traffic management development and deployment processes are agency specific and ad hoc.",
+  "level2TargetText": "Agencies implement a nominally systematic approach to traffic management to address immediate concerns. Traffic management approaches are operator driven and either static or based on time of day.",
+  "level3TargetText": "Traffic management development and deployment processes are standardized and have a more system-wide approach that is well documented.",
+  "level4TargetText": "Development and deployment processes related to traffic management are streamlined across an entire region, and agencies have a continuous improvement process for traffic management.  ",
+  "level4Improvements": "The results of the evaluation show that your agency has achieved a Level 4 status in business processes. This means that within your agency, traffic management has been established as a core and sustainable program priority. Your agency's efforts in traffic management represent a continuous improvement process supported by top-level management and formal partnerships with other agencies. Your agency likely has significant experience with the action plans encompassed by the transition documents between Levels 1, 2, 3, and 4. Few agencies, however, have documented the continuing steps that should be taken to maintain and continually improve a Level 4 status. Compiling that information and expanding the guidance is a key desire of the Federal Highway Administration. Your feedback on both the tool and the Level 4 action items is critical to share. Please consider providing information from your agency on the continual improvement process for Level 4 to Jim.hunt@dot.gov.",
+  "subdimensions": [
+    {
+      "subdimensionID": "1",
+      "name": "Planning/Scoping",
+      "text": "Actions under this sub-dimension focus on the ability of an agency to scope and plan a performance-driven, objective-oriented traffic management program. Actions emphasize the ability to articulate operational objectives, regional traffic management concepts, performance, and regional roles and responsibilities for traffic management."
+    },
+    {
+      "subdimensionID": "2",
+      "name": "Programming/Budgeting/Procurement",
+      "text": "Actions under this sub-dimension focus on the ability of an agency to program traffic management needs into the budgeting and procurement process emphasizing not just the capital expense but also the operations and maintenance costs. Actions emphasize approaches to manage existing and future traffic management assets while continually monitoring and maintaining the performance of these traffic management assets."
+    },
+    {
+      "subdimensionID": "3",
+      "name": "Traffic Management Decision-Making Process",
+      "text": "Actions under this sub-dimensions focus on the decision-making approach used by agencies for traffic management. The intent of actions under this sub-dimension is to move agencies along a continuum toward more active management of their facilities. Actions specified in this area allow an agency to utilize more complex responses to mitigate both recurring and nonrecurring congestion."
+    }
+  ],
+  "actions": [
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Create corridor-level traffic management operating concepts.",
+      "definition": "Develops ideas to look at corridor performance and potential strategies that can help not at a facility but at a corridor level for throughput gains and reliability.",
+      "rationale": "Moves agency beyond looking at its own facilities. Starts to look at multi-modal and multi-jurisdictional needs of the traveling public.",
+      "responsibility": "Multi-agency effort led by either the MPO or the operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Define agency priorities for traffic management for consistent implementation across the agency.",
+      "definition": "Focuses on a few key priorities to advance traffic management concepts across the agency.",
+      "rationale": "Provides a starting point and some immediate low hanging fruit to focus on.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Create Regional Traffic Operations Forum where agencies can build consensus and plan operational improvements from a regional perspective.",
+      "definition": "Creates a collaborative entity to discuss operational and traffic management concepts across multiple agencies within a region.",
+      "rationale": "Continues capability maturity across the region for traffic management practices. Shares peer experiences.",
+      "responsibility": "Multi-agency effort led by either the MPO or the operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Define organizational structure and staffing for the MPO that reflect the importance of regional operations.",
+      "definition": "Identifies staff and roles to integrate traffic management projects in the region into planning at the MPO level.",
+      "rationale": "Creates a regional leadership role for MPOs in traffic management and operations.",
+      "responsibility": "Planning organization."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Develop an annual financial plan that incorporates TSM&O within the budget process.",
+      "definition": "Creates a set-aside for TSM&O portions of traffic management. Such funds could be used for activities such as software upgrades, system adjustments, and preventative maintenance. ",
+      "rationale": "Provides dedicated funds to support traffic management beyond capital investments. Necessary to continue initial system gains.",
+      "responsibility": "Planning organizations as well as operating agencies."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Develop asset management system to ensure that maintenance, replacements, and upgrades are done in a timely and systematic manner.",
+      "definition": "Establishes the first step toward more preventative maintenance, this action identifies the traffic management inventory (including systems, people, and devices) and identifies a responsible agency/person.",
+      "rationale": "Tracking traffic management inventory and expanding it to more than just devices allow the agency to progress toward preventative maintenance and higher levels of service.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "7",
+      "statement": "Elevate priority of inspection and maintenance of traffic management infrastructure within the agency.",
+      "definition": "Supports an aggressive inspection and monitoring approach, as described by this action, helps agencies identify maintenance issues before they escalate into larger problems and, in some cases, prevent them. Although resource intensive, the action can be modified to prioritize key investments that drive overall system performance.",
+      "rationale": "Securing a dedicated effort on inspection and maintenance will result in better reliability of the traffic management infrastructure, which in turn will allow for more dynamic management.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "8",
+      "statement": "Establish preventive maintenance program for ensuring maximum performance for not only equipment but also operational settings (e.g., timing plans).",
+      "definition": "Examines various operational settings and developing a continuous improvement approach. Frequently, operational settings are set in the beginning and not adjusted until an adverse event occurs (such as a user complaint).",
+      "rationale": "Keeps the system operating as intended in terms of performance.  Operational settings drive the performance of traffic management. Sooner than thought, these settings lose their efficacy due to demand and supply changes. ",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "9",
+      "statement": "Develop an annual financial plan that incorporates traffic management capital investments within the budget process.",
+      "definition": "Creates a financial plan as part of the regional and agency budgeting process. This action focuses on the specific capital investments required.",
+      "rationale": "Formalizes the spend plan and explicitly identifies the capital costs per year.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "10",
+      "statement": "Educate agency staff and leadership on benefits of traffic modeling, model types, and model applications.",
+      "definition": "Develops an institutional understanding of modeling and simulation approaches and their utility in planning and operations.",
+      "rationale": "Supports the creation of an analysis and modeling capability at an agency.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Identify conditions, locations, operating concepts, and policy constraints for implementing advisory strategies (warnings, closures).",
+      "definition": "Prompts agencies not implementing advisory strategies, to consider the conditions, locations, and potential solutions for mitigating either spot-specific or facility-specific conditions.",
+      "rationale": "Use of advisory strategies represent low-hanging fruit that agencies can start implementing. They also set the agencies toward more dynamic management approaches.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "12",
+      "statement": "Implement advisory strategies including active warning systems on travel times and incident notifications.",
+      "definition": "Implementing advisory strategies requires center-to-field communications and setting up of activation/deactivation criteria.",
+      "rationale": "Advisory strategies represent low-hanging fruit that agencies can start implementing. They also set the agencies toward more dynamic management approaches",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "13",
+      "statement": "Create signage, communication, and monitoring capability for dynamic deployment; identify gaps and plan for enhancing traffic management.",
+      "definition": "Establishes the field capabilities for moving from fixed, time-of-day traffic management to more responsive traffic management.",
+      "rationale": "Supports the move toward active and integrated management.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "14",
+      "statement": "Develop operator protocols for defining thresholds for activation and deactivation of traffic management strategies.",
+      "definition": "Formalizes how operators activate and deactivate traffic management strategies. This action includes identifying thresholds, integrating the thresholds into the operating practices, and evaluating system performance.",
+      "rationale": "Supports the move toward active and integrated management.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "15",
+      "statement": "Develop simple algorithms and visualization approaches using archived data in a usable format to guide decision-making on traffic management strategies.",
+      "definition": "Develops basic performance visualization using historical data archives to support decision-making. Such tools could include historical demand patterns, spatial and temporal extent of congestion, etc.",
+      "rationale": "Provides the operator tools and techniques to adopt advanced traffic management strategies.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "16",
+      "statement": "Establish center-to-center visibility between traffic management centers in the region.",
+      "definition": "Creates visibility of operations between regional traffic management centers to improve situational awareness and speeds up response. This action creates a basic level of visibility (link to a web page, hotlines) between centers in the region. Information such as major incidents or closures could be shared via this exchange.",
+      "rationale": "Provides the operator tools and techniques to adopt advanced traffic management strategies.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "17",
+      "statement": "Identify different time-of-day regimes for traffic management based on analysis of traffic demand.",
+      "definition": "Fine tunes the basic time-of-day strategy by looking at the transitions between traffic regimes using historical data. These may result in extension of peak-hour signal plans or lane use criteria, for example.",
+      "rationale": "Allows agencies to revisit their assumptions and make adjustments based on observed conditions faster.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "18",
+      "statement": "Use effective practices from special events or post-incident debriefs to improve decision-making.",
+      "definition": "Highlights the use of debriefings post events to improve decision-making through sharing of war stories and effective practices.",
+      "rationale": "Helps improve incident management practices at an agency and regionally.",
+      "responsibility": "Multiple agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Develop traffic management objectives at a regional level.",
+      "definition": "Develops regionally agreed-upon SMART objectives for traffic management.",
+      "rationale": "Establishes an important foundational step in planning for operations.",
+      "responsibility": "Multi-agency effort led by either the MPO or the operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Develop an organizational approach for assessing changes in system performance for routes of regional significance.",
+      "definition": "Defines a clear set of metrics and an approach for performance management as a build-out of the regional objectives.",
+      "rationale": "Tracks yearly progress toward meeting regional objectives.",
+      "responsibility": "Planning organization."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Incorporate regional ITS architecture considerations (e.g., ITS service packages and integration opportunities) into traffic management plans.",
+      "definition": "Interfaces between centers, field equipment, and vehicles should be driven by regional interoperability and expansion considerations. The ITS architecture provides exactly that regional view. Even for agency-specific projects, consideration of the architecture will allow for better decisions on the technical and system requirements and reduce the risk of siloed projects.",
+      "rationale": "Uses regional architectures to provide a consensus framework for interoperability and desired interfaces.",
+      "responsibility": "Planning organization."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Conduct regional traffic management joint training exercises (e.g., operational scenarios, tabletop exercises, and after action reviews).",
+      "definition": "Allows traffic management agencies to focus on the immediate problems with the maximum payback, through the use of table-top exercises and operational scenarios.",
+      "rationale": "Add values to regional exercises on joint operations by establishing roles and responsibilities while identifying areas of improvement.",
+      "responsibility": "Planning organizations as well as operating agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Establish baseline criteria for minimum level of equipment performance (i.e., state of good maintenance) agreeable to all regional agencies.",
+      "definition": "Develops minimum standards of performance for the equipment to adequately support operations.",
+      "rationale": "This action provides agencies with support and a minimal maintenance requirement for traffic management. By sharing this regionally, common requirements of equipment may also begin to be established.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Establish a process to expedite emerging technologies so that an agency can assess, identify, test, and facilitate the implementation of new technologies.",
+      "definition": "Creates a process to refresh the technologies and systems used in traffic management by taking advantage of advances in technology.",
+      "rationale": "Rapidly evolving technology requires an approach that does not result in obsolete legacy systems.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "7",
+      "statement": "Develop a multi-year maintenance plan that includes procurement cycles, warranties, replacement cycles, and preventative maintenance.",
+      "definition": "Moves the agency from an ad hoc replacement plan to one that is guided by the system performance needs and establishes priorities, as various traffic management assets reach their end of service life.",
+      "rationale": "Allows agencies to make prioritized decisions regarding how systems are replaced and when.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "8",
+      "statement": "Provide in-depth training to agency staff/departments to utilize appropriate macro-, meso-, and microscopic modeling.",
+      "definition": "Creates agency staff trained in specific traffic management analysis, modeling, and simulation capabilities.",
+      "rationale": "Creates an analysis and modeling capability at an agency.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "9",
+      "statement": "Create a process whereby new traffic management approaches are modeled internally to determine B/C, environmental impacts, and anticipated operational performance measures.",
+      "definition": "Requires agencies to model proposed traffic management investments using appropriate tools to verify benefit-cost as well as anticipated outcomes.",
+      "rationale": "Helps agencies figure out the cost effectiveness and efficacy of the proposed investments.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Implement facility and corridor management approaches that promote route choice and detours among facilities.",
+      "definition": "Moves the agency into control-oriented strategies intended to support active diversions between routes and junction control.",
+      "rationale": "Moves the agency along an active continuum in terms of control of facilities.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Ensure an adequate staff mix (operators, enforcement) for 24/7 deployment of selected traffic management response strategies.",
+      "definition": "Recognizes that as agencies move toward more dynamic management, they require additional staffing capabilities. This action looks at establishing the staff mix across operations as well as enforcement to support 24/7 operations.",
+      "rationale": "Provides an assessment and determination of the staff mix to support operations.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "12",
+      "statement": "Create an incident management tracking database at the regional level.",
+      "definition": "Supports the creation of a regional incident tracking database to improve situational awareness and traffic management decision-making.",
+      "rationale": "Provides the operator tools and techniques to adopt advanced traffic management strategies.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "13",
+      "statement": "Establish center-to-center connectivity between traffic management centers in the region.",
+      "definition": "Supports a  stronger integration between agencies. These could involve, for example, CAD integration with law enforcement, limited PTZ access to CCTVs, etc.",
+      "rationale": "Provides the operator tools and techniques to adopt advanced traffic management strategies.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "14",
+      "statement": "Identify and optimize connection points between jurisdictions (e.g., ramp signals to adjacent signals, regional signal cooperation).",
+      "definition": "Focuses an agency on the areas where multi-jurisdiction control occurs, such as ramp to signals or regional signal management, and identifies improvements to how these junctions are operated regionally.",
+      "rationale": "Supports multi-jurisdictional operations between agencies and facilities.",
+      "responsibility": "Multiple agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "15",
+      "statement": "Formalize role of transit agencies in traffic management decision-making for regional traffic management.",
+      "definition": "Develops procedures and processes to include transit-related considerations into traffic management. Such practices could include TSP, buses on shoulders, use during weather events, etc.",
+      "rationale": "Improves transit coordination with traffic management. This is especially critical for arterial management agencies.",
+      "responsibility": "Multiple agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Implement a process for identifying operation strategies based on system performance.",
+      "definition": "Advance performance-based facility design that represents a willingness to be flexible in facility design to adopt more advanced dynamic applications.",
+      "rationale": "Moves the agency beyond the scope of individual agency operations and focuses on regional objectives.",
+      "responsibility": "Planning organizations as well as operating agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Develop a regional data clearinghouse of support with a full range of transportation data for planning and operations.",
+      "definition": "Ensures that consistent and quality data are available in the region, as performance measures and planning approaches evolve.",
+      "rationale": "Allows the agency to monitor performance, attainment of regional objectives, project prioritization, and strategy development.",
+      "responsibility": "Planning organizations as well as operating agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Advance performance-based facility design that represents a willingness to be flexible in facility design to adopt more advanced dynamic applications.",
+      "definition": "Supports agencies making facility design choices that can help with more dynamic traffic management by including current and future traffic management and system performance criteria. ",
+      "rationale": "Forces agencies to look at a more performance-based and flexible approach to facility design.  Often, advanced operational strategies are stymied by facility designs made previously without consideration of traffic management needs. ",
+      "responsibility": "Planning organizations as well as operating agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "4",
+      "statement": "Develop a risk-based approach to maintenance of traffic management systems.",
+      "definition": "Provides an approach for incorporating the probability and severity of an adverse event into an agencies maintenance and programming practices to continue to focus improvements with constrained resources in the absence of full maintenance.",
+      "rationale": "Allows agencies to prioritize their limited investments to necessary improvements.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Develop a mutual aid agreement between agencies to provide emergency maintenance repairs of critical operations infrastructure.",
+      "definition": "Increases the access to available regional resources for emergency maintenance to minimize the downtime of assets.",
+      "rationale": "Enables the reduction of down time and leveraging of the capabilities of one agency to support others.",
+      "responsibility": "Multiple agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Develop an annual financial plan that incorporates capital investments and TSM&O within one budget process.",
+      "definition": "Creates a financial plan as part of the regional and agency budgeting process. This action focuses on specific TSM&O investments required.",
+      "rationale": "Formalizes the spend plan and explicitly identifies the TSM&O costs per year.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "7",
+      "statement": "Develop in-house modeling capabilities to support an integrated multi-resolution approach.",
+      "definition": "Develops sophisticated modeling capabilities at the network level to test and model a variety of traffic management approaches at desired level of resolution.",
+      "rationale": "Helps agencies figure out the cost effectiveness and efficacy of the proposed investments.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "8",
+      "statement": "Develop and implement operating concepts for multimodal integrated corridor management concepts and active traffic management for the region.",
+      "definition": "Develops concepts for multimodal integrated operations with active and integrated operations as the ultimate goal. ",
+      "rationale": "Supports the move toward active and integrated management.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "9",
+      "statement": "Train operators on applicable decision support tools for using predicted conditions (weather, traffic demand) for operational decision-making.",
+      "definition": "Provides the training and decision support tools to the operators as the complexity of traffic management strategies increases.  As an illustration, one tool could be to use a logic-based ramp metering algorithm.",
+      "rationale": "Provides the operator tools and techniques to adopt advanced traffic management strategies.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Manage the automated functions of the system and rely on the operator primarily to resolve conflicts and faults.",
+      "definition": "Supports the automation of traffic management functions to minimize operator overload and focus their efforts in resolving exceptions.",
+      "rationale": "Provides the operator tools and techniques to adopt advanced traffic management strategies.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Integrate real-time data with historical data into an analysis, modeling and simulation engine to provide prediction and what-if capabilities.",
+      "definition": "Supports what-if capabilities at an operating agency as it prepares its response to an event. Such capabilities may be used in an off-line (planning) or on-line (tactical) manner. On-line uses may include network state prediction.",
+      "rationale": "Provides the operator tools and techniques to adopt advanced traffic management strategies.",
+      "responsibility": "Operating agency."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "12",
+      "statement": "Establish an operating structure for joint traffic management decision-making between affected agencies for non-emergencies.",
+      "definition": "Creates a framework for joint traffic management decision-making. Such frameworks exist during emergencies but can play a useful role in day-to-day traffic management as well.",
+      "rationale": "Supports multi-jurisdictional operations between agencies and facilities.",
+      "responsibility": "Multiple agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "13",
+      "statement": "Bring multimodal control centers into the C2C framework.",
+      "definition": "Brings transit control centers and traffic control centers into a common C2C framework, enabling greater cross-modal operational coordination.",
+      "rationale": "Supports multi-jurisdictional operations between agencies and facilities.",
+      "responsibility": "Multiple agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "14",
+      "statement": "Develop traffic decision-making approach that actively supports sustainability objectives including increased transit and high-occupancy usage.",
+      "definition": "Requires a policy shift and an explicit acknowledgement and preference toward high-occupancy vehicle use. Implementing this action might result in strategies that may not be ideal for motorists but might encourage alternative modes.",
+      "rationale": "Includes consideration of alternate modes and higher-occupancy travel in traffic management.",
+      "responsibility": "Multiple agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "15",
+      "statement": "Integrate regional incident management tracking databases across the state and across agencies (i.e., regional 511).",
+      "definition": "Creates the framework necessary to support cross-modal decision-making. Data integration across modes provides situational awareness and joint operational control as well as comparative travel information for travelers.",
+      "rationale": "Supports multimodal operations between agencies and facilities.",
+      "responsibility": "Multiple agencies."
+    }
+  ]
+}

@@ -1,0 +1,584 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="UTF-8">
+  <title>TMCMF Quiz :: Import Actions</title>
+  <script src="js/jquery_1.7.1.min.js"></script>
+  <!-- Le styles -->
+  <link href="lib/bootstrap/css/bootstrap.css" rel="stylesheet">
+  <style type="text/css">
+  body {
+    padding-bottom: 40px;
+  }
+  #outer-container { 
+    padding-top: 70px;
+  }
+  textarea { height: 200px; width: 70%; }
+  
+  </style>  
+  <link href="css/style.css" rel="stylesheet" media="screen,print">
+  <link href="css/print.css" rel="stylesheet" media="print">
+
+  <script src="js/array.js"></script>  
+  <script src="js/eachify.js"></script>  
+  <script src="js/dom.js"></script>  
+  <script src="js/webtoolkit.base64.js"></script>  
+  <script src="js/pubsub.js"></script>  
+  <script src="js/storage.js"></script>  
+  <script src="js/bootup.js"></script>  
+  <script src="js/quizdata.js"></script>  
+  <script src="js/quiz.js"></script>  
+  <script src="js/csvjson.js"></script>
+  
+  <script src="lib/bootstrap/js/bootstrap.min.js"></script>  
+
+
+<link href="hotm_report_css/ops_print_rpt.css" rel="stylesheet" media="print" type="text/css">
+<link href="hotm_report_css/ops_nn4_rpt.css" rel="stylesheet" media="screen" type="text/css" title="FHWA Operations Report Stylee Sheet">
+<style type="text/css">
+@import url(hotm_report_css/ops_rpt.css);
+</style>
+
+
+
+</head>
+<body>
+<!-- OPS HEADER START -->
+<table id="ops-header" style="border: 0; width: 100%; padding: 0; border-spacing: 0; border-collapse: separate;">
+  <tr> 
+    <td class="fhwa-bar" id="dot-logo"><img src="images/ops_images/dotfhwa2.gif" alt="Department of Transportation: Federal Highway Administration" width="210" height="31" style="border: 0;"></td>
+    <td class="fhwa-bar" id="fhwa-links"><span id="skiplink"><a href="#content"><img src="images/ops_images/skiplink.gif" alt="Skip to Content" width="1" height="1" style="border: 0;"></a></span><a href="http://www.fhwa.dot.gov"><img src="images/ops_images/fhwahome.gif" width="79" height="18" style="border: 0;" alt="FHWA Home"></a><a href="http://www.ops.fhwa.dot.gov/contactus.htm"><img src="images/ops_images/feedback.gif" width="90" height="18" alt="Feedback" style="border: 0;"></a></td>
+  </tr>
+  <tr id="opsbanner"> 
+    <td id="obsbanner1"><a href="http://www.ops.fhwa.dot.gov/index.asp"><img src="images/ops_images/ops_red_banner.gif" alt="Office of Operations" width="243" height="25" style="border: 0;"></a></td>
+	<td id="obsbanner2"><div style="text-align: right;"><img src="images/ops_images/21century.gif" alt="21st Century Operations Using 21st Century Technologies" width="490" height="25"></div></td>
+  </tr>
+</table>
+<!-- OPS HEADER END -->
+<div id="navbar" class="navbar was-navbar-inverse was-navbar-fixed-top">
+    <div class="navbar-inner">
+      <div class="container">
+        <span class="brand">Traffic Management Capability Maturity Framework</span>
+        
+
+        <div class="btn-group-wrap pull-right">
+          
+          <div class="btn-group pull-right offset2">
+            <a class="btn btn-default btn-users-guide post-it">User's Guide</a>
+            <a class="btn btn-default btn-help post-it">Help</a>
+          </div>
+          
+          <div class="btn-group pull-right">
+            <a class="btn btn-info btn-final-summary">Print Q&amp;A</a>
+            <a class="btn btn-info btn-score">Score</a>
+            <a class="btn btn-info btn-actions">Actions</a>
+          </div>
+          
+          <div class="btn-group pull-right">
+            <a class="btn btn-success btn-start">Start</a>
+            <a class="btn btn-success btn-clear">Clear</a>
+          </div>
+          
+          
+          
+        </div>
+
+
+
+        
+      </div><!-- container -->
+    </div><!-- navbar-inner -->
+  </div><!-- navbar -->
+  <div class="container-fluid" id="outer-container">
+    <div class="row-fluid">
+      <div id="quiz-wrap">
+        <div class="intro">
+          <h1>CSV Importer / JSON Exporter</h1>
+          
+          <h2>example</h2>
+<pre>
+Q,What response best describes the type of agency organization related to traffic management?
+A,Skills between blah,Business Processes,2,Collaboration,2,Business Processes,2,Collaboration,2
+A,Skills between blah,Business Processes,2,Collaboration,2,Business Processes,2,Collaboration,2
+A,Skills between blah,Business Processes,3,Collaboration,2,Business Processes,2,Collaboration,2
+Q,What response best describes the type of agency organization related to traffic management?
+A,Skills between blah,Business Processes,2,Collaboration,2,Business Processes,2,Collaboration,2
+A,Skills between blah,Business Processes,2,Collaboration,2,Business Processes,2,Collaboration,2
+A,Skills between blah,Business Processes,3,Collaboration,2,Business Processes,2,Collaboration,2
+EOF
+</pre>
+          
+          <form class="form-horizontal" id="informal" accept-charset="utf-8">            
+            <div class="control-group">
+            	<label for="csv-input" class="control-label">	
+                CSV Input
+            	</label>
+            	<br />
+              	<div class="controls"><textarea id="csv-input"></textarea>
+            	</div>
+            </div>
+            <div class="control-group">
+            	<label for="json-output" class="control-label">	
+                JSON Output
+            	</label>
+            	<br />
+              	<div class="controls"><textarea id="json-output"></textarea>
+            	</div>
+            </div>
+          </form>        
+        </div><!-- intro -->
+      </div><!-- quiz-wrap -->
+    </div><!-- row-fluid -->
+  </div><!-- container-fluid -->
+
+
+
+
+  <!--<a id="test-link">TEST LINK</a>-->
+
+  <script type="text/javascript">
+
+    /* fix console for IE, non developer console mode */  
+    if (typeof console == "undefined") {
+      var console = { log: function(o) { return false; }};
+    }
+  
+    var campfire = TTI.PubSub({});
+    var quiz = TTI.Quiz({
+      questions: TTI.questions,
+      gossip: campfire
+    });
+    
+    
+    
+    
+
+
+  TTI.ActionParser = function(spec) {
+    var self = TTI.PubSub({});
+    
+    var fileSection = "BOF";
+    
+    var output = {};
+    self.output = output;
+    var rows = [];    
+    
+    self.parseCSV = function(input) {
+      ///alert('parse!');
+      var rcData = {};    
+
+      /////var sanitized = input;
+      var sanitized = TTI.replaceWordChars(input);
+
+      TTI.inspectMSText(sanitized);
+
+
+
+      var lines = sanitized.split(/\n/);
+      
+      eachify(lines).eachPCN(function(o){
+      
+        var line = o.current;
+      
+        var foo = csvjson.csv2json(line);
+
+        ///console.log('line',line,line.length,'foo',foo);
+        
+        if (line.length == 0) {
+          return false; //skip this line
+        } 
+        
+        
+
+        var fields = foo.headers;
+        ////var recordType = fields.shift();      
+        rcData[o.c] = fields;
+        rows.push(fields);
+        ///console.log('fields',fields);
+        
+        /////self.publish('record-' + recordType,fields);
+      });
+      
+      self.publish('data-updated',rcData);
+      
+    };
+
+    
+        
+    self.subscribe('data-updated',function(data){
+      output.dimensionName = data[1][1];
+      output.why = data[2][1];
+      output.level1TargetText = data[3][1];
+      output.level2TargetText = data[4][1];
+      output.level3TargetText = data[5][1];
+      output.level4TargetText = data[6][1];
+      output.level4Improvements = data[7][1];
+
+      output.subdimensions = [];
+      output.actions = [];
+      
+      var open = false;
+      var sdData = rows.select(function(row){
+        if (row[0].match(/:SUB/)) { 
+          open = true; 
+          return false;
+        }
+        if (open && row[1].match(/Sub-Dimension\ ID/)) { 
+          return false;
+        }
+        if (row[0].match(/:ACTION/)) { 
+          open = false; 
+          return false;
+        }
+        return open;      
+      });
+      ///console.log("sdData",sdData);
+      sdData.each(function(row){
+        var o = {};
+        o.subdimensionID = row[1];
+        o.name = row[2];
+        o.text = row[3];
+        output.subdimensions.push(o);
+      });
+
+      var actionData = rows.select(function(row){
+        if (row[0].match(/:ACTIONS/)) { 
+          open = true; 
+          return false;
+        }
+        if (open && row[2].match(/Sub-Dimension\ ID/)) { 
+          return false;
+        }
+        return open;      
+      });
+      actionData.each(function(row){
+        var o = {};
+        o.level = row[1];
+        o.subdimensionID = row[2];
+        o.actionID = row[3];
+        o.statement = row[4];
+        o.definition = row[5];
+        o.rationale = row[6];
+        o.responsibility = row[7];
+        output.actions.push(o);
+      });
+      
+      //console.log('output',output);    
+
+      self.publish('output-updated',output);
+    });
+
+    return self;
+  };
+
+
+
+
+    function parseCSVV1(input) {
+      var qidx = 0;
+      var output = false;
+
+      var quizData = false; 
+
+
+      var lines = input.split(/\n/);
+      //console.log('lines',lines);      
+      var questions = [];
+      lines.each(function(line){
+      
+      
+        /////var fields = line.split(/,/);      
+        var foo = csvjson.csv2json(line);
+        
+        /////console.log('foo',foo);
+        var fields = foo.headers;
+        
+        
+        
+      
+        var recordType = fields.shift();      
+        if (recordType == 'Q' || recordType == 'EOF') {
+          //console.log('output',output);
+          
+          if (output) {
+            questions.push(output);          
+          }
+          qidx += 1;
+          output = {};
+          output.id = qidx;
+          output.question = fields.shift();
+          output.answers = [];
+        }
+        if (recordType == 'A') {
+          var answer = {};
+          answer.answer = fields.shift();
+          answer.points = {};
+          /////console.log('remaining',fields);
+          
+          var last = fields[fields.length-1];
+          ////console.log('last',last);
+          
+          while (last.length == 0) {
+            fields.pop();          
+            last = fields[fields.length-1];
+          }
+          ////console.log('remaining',fields);
+          
+          if (fields.length%2 != 0) {
+            //console.log('cannot parse: ' + line);
+          };
+          
+          while (fields.length > 0) {
+            var dimension = fields.shift();
+            var points = fields.shift();
+            answer.points[dimension] = points;  
+          }
+          output.answers.push(answer);  
+        }
+      });      
+      return questions;    
+    }
+
+
+    var tmp = false; ///junk field
+    var dimensions = [];
+    var questions = [];
+      
+    var inputWrap = jQuery('#csv-input');
+    var outputWrap = jQuery('#json-output');
+
+
+    
+    
+    
+    campfire.subscribe('record-SCORING',function(payload){
+      ////console.log('payload',payload);
+    
+    });
+    
+    campfire.subscribe('record-D',function(fields){
+      console.log('D payload',fields);
+      tmp = fields.shift();
+      
+      //console.log('D fields.length',fields.length);
+      
+      fields.each(function(field){
+        var dim = {};
+        dim.name = field;
+        dim.levels = [];
+        
+        dimensions.push(dim);
+      });
+      
+      /////console.log('dimensions',dimensions);      
+    });
+
+
+    campfire.subscribe('record-DD',function(fields){
+      ///console.log('payload',fields);
+      tmp = fields.shift();
+      
+      dimensions.each(function(dimension){
+        dimension.description = fields.shift();
+      });
+
+      ///console.log('dimensions',dimensions);      
+    });
+
+    campfire.subscribe('record-ID',function(fields){
+      //console.log('ID****',fields);
+      tmp = fields.shift();
+      //console.log('tmp was',tmp,'dim length',dimensions.length);
+      
+      
+      
+      dimensions.each(function(dimension){
+        var newLevel = {};
+        newLevel.id = fields.shift();
+        //console.log('pushing level' + newLevel.id + 'onto ' + dimension.name);
+        dimension.levels.push(newLevel);
+      });
+
+      //console.log('ID dimensions',dimensions);      
+    });
+
+    
+    campfire.subscribe('record-NM',function(fields){
+      tmp = fields.shift();
+      dimensions.each(function(dimension){
+        var lastLevel = dimension.levels[dimension.levels.length-1];
+        lastLevel.name = fields.shift();
+      });
+     // console.log('NM dimensions',dimensions);      
+    });
+
+
+    campfire.subscribe('record-L',function(fields){
+      tmp = fields.shift();
+      //console.log('tmp*****',tmp);
+      dimensions.each(function(dimension){
+        var lastLevel = dimension.levels[dimension.levels.length-1];
+        if (tmp.match(/Text/)) {
+          lastLevel.text = fields.shift();      
+        }
+        /*
+        else if (tmp.match(/start/)) {
+          lastLevel.min = fields.shift();      
+        }
+        else if (tmp.match(/stop/)) {
+          lastLevel.max = fields.shift();      
+        }
+        */
+        else if (tmp.match(/range/i)) {
+          var range = fields.shift();
+          ///console.log('RANGE****',range);
+          lastLevel.range = range.split(/\s*-\s*/);
+
+          
+          
+        }
+        else if (tmp.match(/link/i)) {
+          lastLevel.action = fields.shift();      
+        }
+      });
+
+      /////console.log('NM dimensions',dimensions);      
+    });
+
+
+    campfire.subscribe('record-Q',function(fields){
+      //console.log('output',output);        
+      if (output) {
+        questions.push(output);          
+      }
+      qidx += 1;
+      output = {};
+      output.id = qidx;
+      output.question = fields.shift();
+      output.answers = [];
+    });
+    campfire.subscribe('record-A',function(fields){      
+      var answer = {};
+      answer.answer = fields.shift();
+      answer.points = {};
+      /////console.log('remaining',fields);
+      dimensions.each(function(dimension) {
+        answer.points[dimension.name] = fields.shift();
+      });
+      output.answers.push(answer);
+    });   
+
+
+    campfire.subscribe('record-EOF',function(fields){
+    
+      if (output) {
+        questions.push(output);          
+      }
+      var final = { dimensions: dimensions, questions: questions };
+      ////console.log('EOF',final);
+      outputWrap.empty();
+      outputWrap.append(JSON.stringify(final,null,2));
+    });
+
+    function refresh() {
+      var parser  = TTI.ActionParser({});
+      parser.parseCSV(inputWrap.val());      
+      outputWrap.empty();
+      outputWrap.append(JSON.stringify(parser.output,null,2));
+    }
+    inputWrap.change(refresh);
+    /////inputWrap.blur(refresh);
+
+
+
+    
+    
+    var btnStart = jQuery('.btn-start');
+    btnStart.click(function() {
+      window.location.href = './';
+    });
+    
+
+
+
+    var btnClear = jQuery('.btn-clear');
+    btnClear.click(function() {
+      TTI.storage.clear();
+      ///console.log('cleeeear!');
+    });
+    
+    
+
+    var btnFinalSummary = jQuery('.btn-final-summary');
+    btnFinalSummary.click(function() {
+      quiz.renderFinalSummaryOn(quizWrap);
+    });
+    
+
+    var btnActions = jQuery('.btn-actions');
+    btnActions.click(function() {
+      /////console.log('ACTIONS!!!');
+      quizWrap.empty();
+      quiz.renderSummaryOn(quizWrap);
+    });
+    
+    TTI.quiz = quiz;
+ 
+  </script>
+
+<!-- OPS FOOTER START -->  
+<table style="border: 0; width: 100%; padding: 0; border-spacing: 0; border-collapse: separate;">
+  <tr>
+    <td colspan="3" id="footer-bar"><img src="images/ops_images/empty_cell.gif" width="10" height="10" alt=""></td>
+  </tr>
+  <tr style="vertical-align: top"> 
+    <td id="footer-logo"><img src="images/ops_images/fhwatag.gif" alt="FHWA" width="89" height="18"></td>
+    <td id="footer-links"><p class="footer-links"><a href="http://www.dot.gov">US DOT Home</a> | <a href="http://www.fhwa.dot.gov/">FHWA Home</a> | <a href="http://ops.fhwa.dot.gov/">Operations Home</a> | <a href="http://www.fhwa.dot.gov/privacy.cfm">Privacy Policy</a></p>
+      <p>United States Department of Transportation - Federal Highway Administration</p></td>
+    <td id="javadate">
+      <script type="text/javascript"><!--
+revdate = new Date(document.lastModified);
+if (revdate.getYear() == 69) {
+	// workaround for .asp pages (some browsers do not interpret the lastModified date properly);
+	// just reset the date to today
+	revdate = new Date();
+}
+year = revdate.getYear();
+if (year > 1999)
+ year = year
+else
+ if (year < 90)
+ year = year+2000
+ else
+ year = year+1900;
+month = revdate.getMonth() + 1;
+day = revdate.getDate();
+var mon;
+
+if (month==0) mon = "January";
+if (month==1) mon = "January";
+if (month==2) mon = "February";
+if (month==3) mon = "March";
+if (month==4) mon = "April";
+if (month==5) mon = "May";
+if (month==6) mon = "June";
+if (month==7) mon = "July";
+if (month==8) mon = "August";
+if (month==9) mon = "September";
+if (month==10) mon = "October";
+if (month==11) mon = "November";
+if (month==12) mon = "December";
+
+document.write("&nbsp;&nbsp;Last modified: " + mon + " " + day + ", " + year + "&nbsp;&nbsp;");
+// -->
+</script>
+    </td>
+  </tr>
+</table>
+<!-- OPS FOOTER END -->
+
+
+</body>
+</html>
+  
+  

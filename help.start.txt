@@ -1,0 +1,9 @@
+This is the start page to the Traffic Management Capability Maturity Framework.  Across the top of the page are the main menu options directing you to different screens within the tool.  Each menu button has a hover explaining the option.  Select the appropriate menu option for your desired action. 
+ 
+Please note that the “Clear” menu removes all of your answers and stored text and resets the tool to starting conditions.  Then select “Leave this page” to return to the “Start” menu and start your assessment over again.
+ 
+Do not navigate around the tool using the back button.  All tool screens are accessible using the menu options.
+ 
+Select the type of assessment you’d like to perform by selecting the appropriate button within the main page.  The full assessment uses 21 questions across the 6 dimensions.  The 1-minute assessment asks the user to directly select the agency’s level for each dimension.  The tool requests information about your name and agency solely to help you personalize the output.  This information is not mandatory and is not saved outside of your browser.
+ 
+Please see the User’s Guide for a concise explanation of the navigation and use of the tool.

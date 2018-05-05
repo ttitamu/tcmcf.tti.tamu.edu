@@ -1,0 +1,199 @@
+{
+  "dimensionName": "Culture",
+  "why": "Culture is the combination of values, assumptions, knowledge, and expectations of the agency in the context of its institutional and operating context, and as expressed in its accepted mission and related activities.",
+  "level1TargetText": "Traffic management is primarily an assortment of loosely related projects and strategies. Only a few champions lead the efforts.",
+  "level2TargetText": "Traffic management is recognized as valuable and a key role of the agency. Select agency managers lead efforts for traffic management.",
+  "level3TargetText": "Traffic management is recognized as a core program that coordinates with other programs on an ongoing basis.",
+  "level4TargetText": "Traffic management is a program that is highly integrated with related core functions, such as planning, design, construction, maintenance, etc. All agency staff members, from leadership to rank and file, embrace the importance and value of traffic management.",
+  "level4Improvements": "The results of the evaluation show that your agency has achieved a Level 4 status in culture. This means that within your agency, traffic management has been established as a core and sustainable program priority. Your agency's efforts in traffic management represent a continuous improvement process supported by top-level management and formal partnerships with other agencies. Your agency likely has significant experience with the action plans encompassed by the transition documents between Levels 1, 2, 3, and 4. Few agencies, however, have documented the continuing steps that should be taken to maintain and continually improve a Level 4 status. Compiling that information and expanding the guidance is a key desire of the Federal Highway Administration. Your feedback on both the tool and the Level 4 action items is critical to share. Please consider providing information from your agency on the continual improvement process for Level 4 to Jim.hunt@dot.gov.",
+  "subdimensions": [
+    {
+      "subdimensionID": "1",
+      "name": "Understanding/Leadership/Champions ",
+      "text": "Actions under this sub-dimension provide an agency with ideas to increase the visibility of traffic management within their agency and identify champions who understand the impacts and the role that traffic management programs play in the broader agency's priorities. Actions here emphasize the internal communication of the successes, challenges, and needs to appropriate decision-makers to gather support at all levels of the organization."
+    },
+    {
+      "subdimensionID": "2",
+      "name": "Program Status/Authorities ",
+      "text": "Actions under this sub-dimension focus on increasing the ability of traffic managers to take risks and innovate. Broadly, actions here aim to increase an agency's profile for traffic management locally, statewide, and nationally, emphasizing the delegation of authority to traffic managers to try to implement pilots and strategies that haven't been attempted in the agency."
+    },
+    {
+      "subdimensionID": "3",
+      "name": "Outreach ",
+      "text": "Actions under this sub-dimension focus on conducting a sustained and focused outreach to external stakeholders for traffic management. Actions include the ability to report on performance, identify stakeholder needs, and develop a communications plan."
+    }
+  ],
+  "actions": [
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Establish a program that tracks traffic management projects and documents measured benefits and lessons learned.",
+      "definition": "Lays the groundwork for establishing traffic management as a separate program. Provides agency managers with critical information to support program activities.",
+      "rationale": "Begins to provide quantifiable data that support the positive impacts of traffic management. Establishes a precedent for validating the importance of traffic management.",
+      "responsibility": "State DOT."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Create a library of resources related to all aspects of traffic management and incorporate into operations training plans.",
+      "definition": "Establishes a uniform lexicon regarding traffic management within an organization. Increases awareness of traffic management within an organization.",
+      "rationale": "Creates a baseline understanding of traffic management within the organization. Builds appreciation for the benefits of traffic management by staff in operations-related positions.",
+      "responsibility": "State DOT, MPO, municipality."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Include TMC information as appropriate on traffic management plans to facilitate coordination between TMC and other agencies.",
+      "definition": "Makes a connection between traffic management plans and centers for all agencies. Facilitates coordination of projects and plans with TMC efforts.",
+      "rationale": "Formalizes the relationship between traffic management plans and centers that are essential to a plan's activities. Requires staff developing plans to consider how TMCs will support plans.",
+      "responsibility": "State DOT, municipality."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Identify managers within key agency groups and encourage them to coordinate and lead traffic management projects/efforts.",
+      "definition": "Elevates traffic management to a program level by designating responsible staff and charging them with leading efforts.",
+      "rationale": "Requires agencies to take ownership of traffic management projects/efforts on a program basis. Facilitates coordination across agencies and helps managers become comfortable with traffic management. responsibilities.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Provide traffic managers with discretionary resources and the empowerment to explore and pursue innovative approaches in their daily and project efforts. ",
+      "definition": "Sets the stage for innovative thinking on the part of traffic managers. Helps identify managers that could serve as champions and future leaders in agency traffic management efforts.",
+      "rationale": "Begins to foster innovative solutions to traffic management problems. Creates an incubator for small-scale projects. Allows the assessment of results that may translate to larger projects.",
+      "responsibility": "State DOT."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Develop standard operational procedures and protocols for specific traffic management operational activities.",
+      "definition": "Establishes uniform response to traffic management efforts. Supports consistency across groups and across agencies.",
+      "rationale": "Establishes a dialogue between stakeholder agencies regarding activities. Ensures uniform and consistent responses to traffic management needs. Presents seamless operations to the traveling public.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "7",
+      "statement": "Establish a process for reporting critical performance measures to key staff within the organization.",
+      "definition": "Sets the stage for establishing traffic management as a separate program. Provides agency staff with critical information to support program activities.",
+      "rationale": "Creates a protocol for disseminating critical performance measures that resonate with organizational staff. Helps staff craft messages and use critical data for project justification.",
+      "responsibility": "State DOT."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Ensure that agency strategic plan includes linkages between traffic management and core functions.",
+      "definition": "Codifies the importance of traffic management as a key component of an agency's strategic plan. Emphasizes its relativity to all core functions.",
+      "rationale": "Brings agency-wide attention to the importance of traffic management from the top levels of administration. Facilitates agency buy-in and illustrates the importance of traffic management in all activities.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Create a traffic management toolkit from entry level to manager level that includes technical and procedural guidance on performing traffic management activities in the agency.",
+      "definition": "Provides hands-on, useful resources to staff. Encourages consistent response to traffic management activities and needs.",
+      "rationale": "Emphasizes the importance of traffic management efforts at all levels of stakeholder agencies. Establishes traffic management as a responsibility for staff regardless of position.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Create a traffic management steering committee of key group leaders and agency champions.",
+      "definition": "Creates a mechanism to support traffic management projects/efforts/programs across a region.",
+      "rationale": "Validates buy-in of traffic management from an organizational perspective.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Hold regular meetings of the steering committee to ensure an ongoing dialogue that sets the agency's traffic management agenda.",
+      "definition": "Ensures that the steering committee is not in name only but rather a group that is actively engaged in the traffic management efforts for the region.",
+      "rationale": "Builds relationships between the stakeholder agencies. Establishes trust between individuals with familiarity that encourages collaboration and creative solutions.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Offer traffic managers financial and administrative support and the authority to participate in federal pilot and pooled-fund projects to assess new and emerging traffic management practices. ",
+      "definition": "Supports efforts to participate in innovative efforts at the federal level to advance traffic management at the regional level. Builds a climate of creativity.",
+      "rationale": "Facilitates innovative practices and helps capitalize on opportunities to leverage resources. Can position the agency as a national player in innovative solutions.",
+      "responsibility": "State DOT, MPO, municipality, county."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Authorize traffic managers to participate in state projects to experiment with new strategies beyond typical traffic management practices.",
+      "definition": "Supports efforts to participate in collaborative and innovative efforts at the state level to advance traffic management at the regional level. Builds a climate of creativity.",
+      "rationale": "Facilitates innovative practices. Helps capitalize on opportunities to leverage resources. Positions agencies as leaders in the state with successful collaborative relationships.",
+      "responsibility": "State DOT, MPO, municipality, county."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "7",
+      "statement": "Develop a comprehensive traffic management program that actively engages and collaborates with all agency groups and partner agencies.",
+      "definition": "Formalizes a traffic management program that is led by key managers and values creativity and collaboration.",
+      "rationale": "Fosters collaborative relationships with partner agencies. Ensures that traffic management is a strong program that encourages innovation and has support from all partners.",
+      "responsibility": "State DOT, MPO, municipality, county."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Incorporate a strong customer focus in the agency strategic plan and establish programmatic activities to support the customer focus.",
+      "definition": "Solidifies the importance of traffic management as a key contributor to positive customer service within the strategic plan.",
+      "rationale": "Ensures that customers see their value within the agency and that their needs are considered within the overall framework of traffic management and all other core functions.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Establish traffic management body of knowledge, including public and private sectors, to generate creative solutions to traffic management challenges.",
+      "definition": "Establishes traffic management as an ongoing effort requiring continuous improvement and engagement from all stakeholder agencies and partners.",
+      "rationale": "Sets the tone for traffic management activities across the region. Provides a venue for generating creative solutions to challenges. Pinpoints new opportunities for enhancing traffic management across all core functions.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders, private-sector partners."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Establish a multi-agency executive council to support traffic management efforts at the regional level.",
+      "definition": "Reinforces the message that all stakeholder agencies are engaged in traffic management efforts across the region as a core function. Ensures that traffic management is approached in a cohesive and integrated manner with all parties at the table.",
+      "rationale": "Builds relationships between stakeholder agencies at the executive level. Encourages similar relationships at all levels across agencies. Establishes trust and encourages collaboration and creative solutions for the entire region.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "4",
+      "statement": "Establish interagency agreements with partner agencies that support the traffic management comprehensive strategic plan where appropriate.",
+      "definition": "Codifies the collaborative relationships with partner agencies in a unified manner to address traffic management in a comprehensive manner at the regional level.",
+      "rationale": "Gains buy-in from all partner agencies on regional traffic management activities. Sends the message to all agency staff that traffic management is a key function. Supports innovative and collaborative solutions.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "5",
+      "statement": "Generate a comprehensive outreach program that provides critical performance measure information across all audiences via diverse platforms for overall agency activities related to traffic management.",
+      "definition": "Creates a well-defined set of measures that is used across all platforms as needed. Ensures that the messages delivered are consistent.",
+      "rationale": "Allows agencies to consistently track performance over time. Clearly articulates the benefits of the traffic management projects/programs to all audiences. Reinforces the importance of traffic management as an integral part of core functions.",
+      "responsibility": "State DOT, MPO, municipality, county, law enforcement, first responders."
+    }
+  ]
+}

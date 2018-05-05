@@ -1,0 +1,370 @@
+{
+  "dimensionName": "Performance Measurement",
+  "why": "Performance measurement is essential as the means of determining program effectiveness, determining how changes are affecting performance, and guiding decision-making. In addition, operations performance measures demonstrate the extent of transportation problems and can be used to \"make the case\" for operations within an agency and for decision-makers and the traveling public, as well as to demonstrate to them what is being accomplished with public funds on the transportation system.",
+  "level1TargetText": "Use of performance measurement processes for traffic management is not undertaken on a regular basis.",
+  "level2TargetText": "Agencies employ performance measurement assessment of traffic management strategies primarily to analyze impacts post deployment.",
+  "level3TargetText": "Agencies identify desired outcome measures and consistently utilize performance measure analyses to improve strategy deployment and overall operations.",
+  "level4TargetText": "Agency traffic management goals and objectives are mapped to performance measures, which are regularly used to manage systems. Documentation of analyses results is distributed internally and externally and is archived for later use.",
+  "level4Improvements": "The results of the evaluation show that your agency has achieved a Level 4 status in performance measurement. This means that within your agency, traffic management has been established as a core and sustainable program priority. Your agency's efforts in traffic management represent a continuous improvement process supported by top-level management and formal partnerships with other agencies. Your agency likely has significant experience with the action plans encompassed by the transition documents between Levels 1, 2, 3, and 4. Few agencies, however, have documented the continuing steps that should be taken to maintain and continually improve a Level 4 status. Compiling that information and expanding the guidance is a key desire of the Federal Highway Administration. Your feedback on both the tool and the Level 4 action items is critical to share. Please consider providing information from your agency on the continual improvement process for Level 4 to Jim.hunt@dot.gov.",
+  "subdimensions": [
+    {
+      "subdimensionID": "1",
+      "name": "Measures Definition ",
+      "text": "Actions under this sub-dimension help an agency identify the most important measures for traffic management in the region and define them formally, including identifying where they will be measured for the program. As capability matures, actions provide agencies with the ability to incorporate more outcome-oriented measures in their performance framework."
+    },
+    {
+      "subdimensionID": "2",
+      "name": "Data Acquisition ",
+      "text": "Actions under this sub-dimension help an agency establish a data acquisition approach to the defined performance measures, including defining data gaps, establishing data management systems, and identifying public- and private-sector roles and opportunities."
+    },
+    {
+      "subdimensionID": "3",
+      "name": "Performance Management ",
+      "text": "Actions under this sub-dimension help an agency use the performance measures to actively manage their traffic management program. Actions emphasize the continuous monitoring of projects and the ability of an agency to change, adapt, and prioritize traffic management responses, decisions, and investments based on the observed measures."
+    }
+  ],
+  "actions": [
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Identify which aspects of traffic management should be included in performance measures.",
+      "definition": "Identify the types of traffic management that should be included in an operations performance measurement program. Examples include congestion management, work zones, incidents, etc.",
+      "rationale": "Provide a starting point to a performance measurement program. Determine the resources needed to implement the performance measurement program.",
+      "responsibility": "State DOT."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Identify the output and outcome measures useful for determining agency efficiency in traffic management strategies.",
+      "definition": "Determine the measures that are related to the traffic management strategies of interest. Consider the measures that are actionable and those that can be changed by the agency.",
+      "rationale": "Help estimate the cost and level of effort associated with the activities required to obtain the measures.",
+      "responsibility": "State DOT."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "3",
+      "statement": "Review current output data collection and archiving activities and identify initial steps to produce useful archiving data on a continuing basis.",
+      "definition": "Identify existing data collection activity. Review current archiving functions and data retrieval protocols, including software needed to manipulate the data.",
+      "rationale": "Identifies data collection and archival procedures relevant to traffic engineering and the current project needs.  ",
+      "responsibility": "State DOT, TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "4",
+      "statement": "Identify data gaps that impact output performance measures and develop a plan to address the gaps.",
+      "definition": "Identify performance measures for which existing data are not available. Define supplemental data needed to fill in gaps in collected data. Develop a plan to address how additional data can be collected and archived.",
+      "rationale": "Identifying existing gaps in the current data stream is needed to complete the data sets required for the desired performance monitoring system.",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Develop rudimentary data management system for an agency.",
+      "definition": "Develop a simple startup system for managing data but designed to be scalable for future expansion.",
+      "rationale": "Creates a start-up data management system which may feature basic performance monitoring and archiving functions. The system may be developed and maintained in house.",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "6",
+      "statement": "Create standard performance reports for use in assessing impacts of operational improvements on a project-level basis.",
+      "definition": "Review existing examples of reporting from peer agencies. Consult with potential users and identify a list of performance measures to be included in the performance reports. Develop reporting frequency of reports and determine how the trends will be tracked.",
+      "rationale": "Implements routine and periodic reporting of performance measures as needed for improving strategies, reporting activities, and maintaining the relevance of the performance monitoring program. ",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "7",
+      "statement": "Establish goals prior to starting projects and perform internal before/after studies to measure success.",
+      "definition": "Establish the project goals and identify relevant performance measures to track the progress toward the goal. Perform before/after analysis to measure the success of the program.",
+      "rationale": "Define project goals and relevant performance measures carefully in order to accurately measure the success of the project.",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "8",
+      "statement": "Use regional architecture to identify data to be measured.",
+      "definition": "Review the existing regional architecture to identify the data that need to be measured.",
+      "rationale": "Ensure that the data collected are feasible and relevant to the regional architecture.",
+      "responsibility": "State DOT, MPO, TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "9",
+      "statement": "Develop a simple tool (e.g., spreadsheet based) for producing specific measures and/or analysis as needed.",
+      "definition": "Develop a simple system (e.g., spreadsheet-based tool) that is capable of producing specific measures/analysis on an ad hoc basis using the data available.",
+      "rationale": "Provide a basic performance reporting capability using simple tools and in-house resources. ",
+      "responsibility": "State DOT, MPO, TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Establish methodology for determining acceptable levels of data reliability based upon user needs (traffic management, traveler information, etc.).",
+      "definition": "Identify the levels of data reliability and requirements needed for different user groups. Develop a methodology to assess the data reliability for each user group.",
+      "rationale": "Acceptable levels of data reliability vary with user groups and purposes.",
+      "responsibility": "State DOT, MPO, TMC."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Improve reporting of performance measures so that they can be part of periodic operation review by agency managers.",
+      "definition": "Review current reporting of performance measures and identify needed improvement in the reporting process. Determine the frequency of reporting of performance measures and incorporate the performance reports into regular meetings/reports for agency managers.",
+      "rationale": "Implements routine and periodic reporting of performance measures as needed for improving strategies, reporting activities, and maintaining the relevance of the performance monitoring program. ",
+      "responsibility": "TMC, agency managers."
+    },
+    {
+      "level": "1",
+      "subdimensionID": "3",
+      "actionID": "12",
+      "statement": "Establish performance benchmarks and targets for traffic management.  ",
+      "definition": "Establish the operation goals for the agency. Review and identify available performance measures that can be managed to achieve the goals. Organize a stakeholder meeting to establish performance benchmarks and targets for traffic management.",
+      "rationale": "Ensure that the agency's resources are appropriately allocated to achieve consistent operation performance.",
+      "responsibility": "TMC, decision-makers."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Identify target corridors, including possible nearby arterials (where the impacts of traffic management are expected) to be included in performance measurement.",
+      "definition": "Identify the scope of the facilities to be included in the performance measurement. Consider including the nearby arterials to provide better coverage of operational impacts.",
+      "rationale": "Establish a boundary for the performance measurement program; this boundary is a critical element in determining appropriate methods of data collection, analysis, storage, and retrieval.",
+      "responsibility": "State DOT."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Develop a working definition for performance and travel time reliability measures (e.g., temporal and spatial requirements for data aggregation and reporting).",
+      "definition": "Develop a working definition for obtaining performance and travel time reliability measures that includes calculation procedures, temporal and spatial requirements, data quality checks, and invalid data handling procedure.",
+      "rationale": "Establishes important working definitions for the agency, as the basis for developing and implementing data collection and analysis methods. This will help determine how the data should be collected and aggregated or if private data should be considered. Some performance measures are direct measures, while others are indirectly derived or computed from models.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Develop strategies to produce useful output/outcome and reliability performance measures for internal and external purposes on a corridor-level basis.",
+      "definition": "Identify and review specific internal and external needs for performance measures. Develop strategies to efficiently produce those measures that are suitable for both internal and external purposes. Streamline the process by determining where the efforts can be leveraged or where the duplicated efforts can be eliminated.",
+      "rationale": "Develops strategies to produce measures for different internal and external purposes to help streamline the production process and maximize the effectiveness of information delivery.  Effectiveness of performance measures depends on how they are presented for different purposes. There is no one-size-fits-all solution for performance measurement. ",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "4",
+      "statement": "Establish data acquisition plan and system for acquiring data to support traffic management needs using both direct measurement (e.g., volumes) and analytic methods (e.g., queues, delays).",
+      "definition": "Develop plan to acquire data to support traffic management operations. The plan should include how the performance data will be collected. The plan may include both direct and indirect measures that require additional data analytics/modeling.",
+      "rationale": "Plans for the data collection, analysis, archival, and retrieval needs to support the goals of traffic management operations.",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Identify opportunities for acquiring data from external sources such as other partner agencies and the private sector and establish data-sharing agreements.",
+      "definition": "Identify potential users of the performance-related data and evaluate the needs internal and external to the agency. Consider cost-sharing agreement where there is a potential overlap of data usage.",
+      "rationale": "Use of private data sources may be a viable solution in lieu of investing the agency's budget on costly infrastructure.  Some data sources, such as travel time, may not be obtainable for the desired geographical coverage. ",
+      "responsibility": "State DOT, TMC, other traffic operation agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Develop procedures to standardize data from various sources and improve the data management system to support multiple data sources.",
+      "definition": "Develop standard procedures for collecting, handling, retrieving, storing, and quality screening of the data from various sources.",
+      "rationale": "Ensures that required data sources are available to meet the data needs of an agency. For example, travel times can be obtained from multiple sources, such as fixed-point sensors, probe-based systems, floating cars, and private data.",
+      "responsibility": "State DOT, TMC, MPO, private data providers."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "7",
+      "statement": "Develop consistent performance data analysis process to continually track the performance of the system in relation to the established targets and benchmarks.",
+      "definition": "Define how the performance of the system should be reported with respect to the established targets/benchmarks. Develop a formal data analysis and reporting procedure to continually track those performance measures.",
+      "rationale": "Ensure that the system performance is properly and consistently tracked. Identify where improvement is further needed. Gauge how well the system is performing in relation to its targets. ",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "8",
+      "statement": "Develop process to incorporate operations performance into decision-making process for transportation-related investment.",
+      "definition": "Identify the transportation-related investment where the operations performance should be incorporated into the decision-making process. Develop a process to incorporate operations performance into investment decision.",
+      "rationale": "Incorporates the operations performance into transportation investment decisions, which will help the agency maximize its return on investment by allocating funds to projects where improvements are needed most.",
+      "responsibility": "State DOT, MPO, TMC, decision-makers."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "9",
+      "statement": "Establish program for routine reporting of performance for both internal use and external use and for public/decision-maker outreach.",
+      "definition": "Develop a program that routinely reports system performance for different user groups. The reporting frequency and the information included in the reports should be customized for each group of audiences.",
+      "rationale": "Provides accountability and justification for the program. Gain support for the program from policy-makers.",
+      "responsibility": "State DOT, MPO, media agencies."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Develop a software system for automated processing and visualization of real-time and historical data analytics.",
+      "definition": "Implement a software system that automates the processing of the performance data. Identify the performance metrics that could be effectively communicated with visualization. Identify the visualization platform and develop an automated tool to help visualize trends and patterns from the performance data.",
+      "rationale": "Detects trends and patterns in performance data through data visualization.  Automating the process and data analytics will improve the efficiency of performance management.",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Develop agency policy that ties performance measures to operational objectives.",
+      "definition": "Ensure that the agency policies are developed in a way that incorporates the performance measures into operational objectives. The operational objective should be measurable using available performance metrics.",
+      "rationale": "Create a strong value for a performance monitoring program.",
+      "responsibility": "Decision-makers, agency managers."
+    },
+    {
+      "level": "2",
+      "subdimensionID": "3",
+      "actionID": "12",
+      "statement": "Create action plan to utilize performance measures for managing the system to achieve target performance.",
+      "definition": "Review the current system performance with respect to the established target performance level. Identify where the improvements are needed. Develop a list of action items to manage the system to achieve target performance.",
+      "rationale": "Provide a concrete action plan to actively manage the system using appropriate performance measures to achieve the performance target.",
+      "responsibility": "TMC, decision-makers."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "1",
+      "statement": "Define the scope of the system and develop a working definition of system-wide performance measures. Consider both corridor-level and system-wide measures related to full range of measures (mobility, safety, livability, sustainability). Extend the measures to include full range of output and customer satisfaction measures.",
+      "definition": "Expand the geographical coverage of the performance measurement to include both corridors and arterials to provide both corridor- and system-level measures. Develop working definitions for a full range of measures beyond operational impacts. Include customer satisfaction measure into the process.",
+      "rationale": "Impacts on transportation network are interconnected. System-wide performance measurement can help determine where and when the changes on the network occur and how to effectively address them.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "2",
+      "statement": "Develop outreach program to report measured performance.",
+      "definition": "Relate performance measures to customer and public interests. Develop a program that helps illustrates the effect of the traffic management strategies in an understandable and effective manner.",
+      "rationale": "Provides for the continuing support and understanding of a performance measurement program and its relevance to policy-makers and customers.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "3",
+      "statement": "Consider additional output and outcome measures to meet the needs of real-time operations as well as archiving protocols.",
+      "definition": "Identify additional measures that need to be collected to support real-time operations. Develop data archiving plan for those additional measures for subsequent system validation and refinement.",
+      "rationale": "Extends the data collection and storage capabilities to support real-time traffic management strategies.",
+      "responsibility": "State DOT."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "1",
+      "actionID": "4",
+      "statement": "Extend the outcome measurement program to support broader goals of the agency operation (e.g., air quality, origin-destination travel time).",
+      "definition": "Expand the outcome measurement program to include broader goals for the agency operations. Examples include air quality, safety, and planning.",
+      "rationale": "Extending the outcome measurement program to support broader goals of the agency will help maximize the return on investment from the performance measurement program and increase the level of buy-in from all levels within the agency. This will increase the relevance of the performance measurement program.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "5",
+      "statement": "Establish operations data system for producing performance measures on a continual and automated basis.",
+      "definition": "Develop a data management system that is capable of producing and archiving performance data on a continual and automated basis. The data retrieval may be web based to support multiple user access and data sharing.",
+      "rationale": "Automating the performance data collection, reporting, storage, and retrieval process is a necessary step as the system expands in scope and functionalities.",
+      "responsibility": "TMC, partner agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "6",
+      "statement": "Design and implement an archived data management system that automatically retrieves and archives data from multiple sources. Develop an interface that allows the agency to share the data with partner agencies via standardized data communication protocols.",
+      "definition": "Design and develop a data management system that automates standard procedures for collecting, handling, retrieving, storing, and quality screening of the data from various sources. Design and implement data sharing protocols that allow the agency to share the data with partner agencies.",
+      "rationale": "Expansion of the  system must support multiple data sources and allow the agency to efficiently share the data with partner agencies to reinforce the relevance of the performance monitoring program and increase the level of buy-ins from all the stakeholders.",
+      "responsibility": "TMC, partner agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "2",
+      "actionID": "7",
+      "statement": "Develop data quality assurance program as part of routine archiving process.",
+      "definition": "Identify key attributes for quality control including erroneous, missing, and invalid data. Employ standard quality control strategies.",
+      "rationale": "Applies a quality assurance process to both real-time and archived data to ensure the validity of the data being collected. ",
+      "responsibility": "TMC, partner agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "8",
+      "statement": "Routinely use performance measures to evaluate new transportation investment projects and changes to existing projects.",
+      "definition": "Evaluate new projects based on their expected effects on system performance. Include individual project evaluations in routine performance reports.",
+      "rationale": "Ensures that the transportation investment decision is justified and economically sound, by practicing routine use of performance measures.",
+      "responsibility": "State DOT, MPO, decision-makers."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "9",
+      "statement": "Ensure performance measures are utilized across modes/jurisdictions and incorporated into regional/local transportation investment planning.",
+      "definition": "Identify how performance measurement information is used to support specific program decisions. Develop performance reports that are easily communicable, understandable, and tailored to a range of audience/stakeholder interests.",
+      "rationale": "Provide accountability and justification for the program. Gain support for the program from the public as well as policy-makers.",
+      "responsibility": "State DOT, MPO, media agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "10",
+      "statement": "Develop a life-cycle cost analysis procedure to assess the benefits of operations.",
+      "definition": "Develop a life-cycle cost analysis procedure to assess the benefits and costs of the traffic management that account for a full spectrum of operation costs including capital costs, TSM&O, and a full range of benefits including mobility, safety, and environment.",
+      "rationale": "Provide accountability and justification for the program. Gain support for the program from the public as well as policy-makers.",
+      "responsibility": "State DOT, MPO."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "11",
+      "statement": "Develop and implement a system that automatically utilizes both real-time and historical data to provide predictive capabilities to support traffic management operations.",
+      "definition": "Develop a methodology and implement the system to utilize historical and real-time data to provide predictive capability to support the traffic management operation.",
+      "rationale": "Establishes a predictive capability for an agency to enhance the capability to anticipate as well as proactively manage traffic conditions. Several traffic management strategies can potentially benefit from predictive information rather than just real-time data alone.",
+      "responsibility": "TMC."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "12",
+      "statement": "Utilize advanced simulation and analytical model to support the analysis of traffic management strategies/options.",
+      "definition": "Identify the resources available to conduct advanced analysis. Utilize the advanced simulation and analytical tools to support the operation, such as analyzing the effects of different strategies on traffic conditions.",
+      "rationale": "Allows the agency Simulation and analytical models allow the agency to realistically anticipate the effects of complex traffic management strategies on traffic conditions. These tools can also be used to help select the best strategies to implement based on the potential improvement expected on the facilities.",
+      "responsibility": "TMC, consultants, analysts."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "13",
+      "statement": "Develop a workshop for agency-wide staff on values of performance measures and how to incorporate them into operational decisions.",
+      "definition": "Organize an agency-wide workshop to instill the values of performance measures and how they can be linked to day-to-day operational decisions.",
+      "rationale": "Creates an agency-wide understanding of the value of performance measures, which is critical to the success of the performance monitoring program. This understanding increases the buy-in from all levels within the agency.",
+      "responsibility": "State DOT, individual agencies."
+    },
+    {
+      "level": "3",
+      "subdimensionID": "3",
+      "actionID": "14",
+      "statement": "Develop formal policy and action plan that tie performance measures to all aspects of system operations and maintenance. ",
+      "definition": "Develop a traceability matrix that links the performance measures to all aspects of system operations and maintenance. Organize the working group to review existing policies, identify where performance measures can be incorporated, and revise the policies. Create an action plan to implement revised policies and track progress with measurable performance metrics.",
+      "rationale": "Creates an agency-wide understanding of the value of performance measures, which is critical to the success of the performance monitoring program. This understanding increases the buy-in from all levels within the agency.",
+      "responsibility": "Individual agencies."
+    }
+  ]
+}
